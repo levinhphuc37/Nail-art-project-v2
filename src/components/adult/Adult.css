@@ -1,0 +1,196 @@
+/* children banner */
+.wrapper 
+{
+    padding: 20px;
+    text-align: center;
+    background-image: url(../../../public/images/banner-title.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 140px 0;
+}
+/* children about */
+.blog-wraper-one
+{
+    padding: 150px;
+    display: flex;    
+    justify-content: center;
+    align-items: center;    
+    box-sizing: border-box;    
+    height: 100%;
+}
+
+div p span a
+{
+    text-decoration: none;
+    color: #911439;
+}
+
+.banner-btn
+{
+    display: flex;  
+    color:white;
+    text-decoration: none;
+    width: 180px;
+    background-color: #911439;
+    height: 50px;
+    align-items: center;
+    justify-content: center;        
+  }
+
+  /* children showcase  */
+.gellary-head 
+{
+    background-color: #efcec9;
+    padding: 50px 0 100px 0;
+    text-align: center;
+}
+
+.gellary-grid-wrapper 
+{
+    width: 100%;
+    float: left;
+}
+.container 
+{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.row 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.column 
+{
+    flex: 1;
+    margin: 10px;
+}
+
+.img-link 
+{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.img-link img 
+{
+    width: 100%;
+    height: auto;
+}
+
+body, html 
+{
+    height: 100%;
+    margin: 0;
+    
+}
+
+/* children service title */
+.children-service-title {
+    background-color: #efcec9;
+    padding: 20px;
+    margin-bottom: 20px;
+    overflow: auto; 
+    text-align: center;
+}
+
+/* children service */
+.services {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.service-about {
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #efcec9;
+    width: 100%;
+    overflow: hidden;
+}
+
+.service-about a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #911439;
+    color: white;
+    text-decoration: none;
+}
+
+.service {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    flex: 1 0 20%; 
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+}
+
+.service img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+
+/* children feedback */
+.testimonial {
+    width: 100%;
+    text-align: center;
+}
+
+
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.testimonial-item {
+    width: 45%; 
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+.testimonial-item img {
+    width: 50px; 
+    height: 50px;
+    border-radius: 50%;
+}
+
+.testimonial-item h4 {
+    margin-top: 10px;
+}
+
+/* news and subscribe */
+.newsletter {
+    background-color: #efcec9;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.subscribe-form {
+    margin-top: 20px;
+}
+
+.subscribe-form input[type="email"] {
+    padding: 10px;
+    width: 60%;
+    margin-right: 10px;
+}
+
+.subscribe-form button {
+    padding: 10px 20px;
+    background-color: #911439;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

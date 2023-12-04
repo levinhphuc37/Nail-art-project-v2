@@ -1,0 +1,59 @@
+/* feedback banner */
+.wrapper {
+    padding: 140px 20px;
+    text-align: center;
+    background-image: url(../../../public/images/banner-title.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+}
+
+
+/* feedback form */
+.contact-form {      
+    width: 1000px;
+    background-color: #fff1ef;   
+    margin: auto;
+  }
+  .contact-form .sidebar-head {    
+    text-align: center;
+    background-color: #efcec9;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-form form label {
+    color: #707070;
+  }
+  .contact-form form .contact-input {
+    position: relative;
+    margin-bottom: 15px;
+  }
+  .contact-form form .contact-input input {
+    height: 50px;
+  }
+  .contact-form form .contact-input i {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    color: #707070;
+  }
+  .contact-form form .contact-input textarea {
+    height: 130px;
+    width: 100%;
+    border: none;
+    padding: 15px;
+  }
+ 
+  .contact-form .form-head {
+    margin:auto 80px;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div form div select
+  {
+    margin-bottom: 15px;
+  }

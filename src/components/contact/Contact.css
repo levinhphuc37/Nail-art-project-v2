@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+}
+/* banner */
+.wrapper {
+    padding: 140px 20px;
+    text-align: center;
+    background-image: url(../../../public/images/banner-title.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+/* contact content */
+.contact-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    padding: 100px 0;
+    width: 100%;
+}
+
+.contact-icon {
+    background-color: #efcec9;
+    padding: 15px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto -30px auto;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease;
+}
+
+.contact-icon i {
+    color: #222222;
+}
+
+.contact-content {
+    background-color: #fff1ef;
+    text-align: center;
+    padding: 55px 15px;
+    position: relative;
+}
+
+.contact-content a {
+    max-width: 250px;
+    display: block;
+    margin: 0 auto;
+    color: #707070;
+}
+.contact-box {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px;
+}
+.contact-box:hover .contact-icon {
+    background-color: #911439;
+    transform: scale(1.2);
+}
+
+.contact-box:hover .contact-icon i {
+    color: #ffffff;
+}
+/* contact-map */
+.contact-map iframe{
+    width: 100%;
+    height: 500px;
+}
+/* contact form */
+.contact-form {      
+    width: 1000px;
+    background-color: #fff1ef;   
+    margin: auto;
+  }
+  .contact-form .sidebar-head {    
+    text-align: center;
+    background-color: #efcec9;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-form form label {
+    color: #707070;
+  }
+  .contact-form form .contact-input {
+    position: relative;
+    margin-bottom: 15px;
+  }
+  .contact-form form .contact-input input {
+    height: 50px;
+  }
+  .contact-form form .contact-input i {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    color: #707070;
+  }
+  .contact-form form .contact-input textarea {
+    height: 130px;
+    width: 100%;
+    border: none;
+    padding: 15px;
+  }
+ 
+  .contact-form .form-head {
+    margin:auto 80px;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* news section */
+.blog-wraper-five {
+  background-color: #efcec9;
+  text-align: center;
+  padding: 100px 0;
+}
+.subscribe-form {
+    margin-top: 20px;
+}
+
+.subscribe-form input[type="email"] {
+    padding: 10px;
+    width: 60%;
+    margin-right: 10px;
+}
+.subscribe-form button {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+

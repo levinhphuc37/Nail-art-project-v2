@@ -1,0 +1,46 @@
+/* product and acc banner */
+.wrapper 
+{
+    padding: 20px;
+    text-align: center;
+    background-image:  url(../../../public/images/banner-title.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 140px 0;
+    margin-bottom: 20px;
+}
+
+/* product */
+.product-title
+{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.blog-wrapper-one {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.row
+{
+    margin-bottom: 20px;
+}
+
+

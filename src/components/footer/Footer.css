@@ -1,0 +1,75 @@
+/* CSS code for the footer */
+footer {
+    background-color: black;
+    color: white;
+  }
+  
+  .logo {
+    width: 100px;
+    height: auto;
+  }
+  
+  .company-name {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .links li {
+    margin-bottom: 5px;
+  }
+  
+  .links a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block
+  }
+  
+  .links a:hover {
+    color: yellow;
+  }
+  
+  .instagram {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+  }
+  
+  .instagram img {
+    width: 100%;
+    height: auto;
+  }
+  
+
+  .copy-right {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .bottom-footer
+  {
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  .links li::before {
+    content: "> ";
+  }
+
+  .contact-info p
+  {
+    margin-bottom: 25px;
+  }
+
+  
