@@ -3,6 +3,7 @@ import './Header.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import { faCaretDown } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
@@ -17,7 +18,7 @@ const Header = () => {
             <Link to="/home">Home</Link>
             <div className="my-dropdown">
               <button className="my-dropbtn">
-                Page <i className="fa fa-caret-down"></i>
+                Page <FontAwesomeIcon icon={faCaretDown}></FontAwesomeIcon>
               </button>
               <div className="my-dropdown-content">
                 <Link to="/aboutus">About Us</Link>
@@ -28,7 +29,7 @@ const Header = () => {
   
             <div className="my-dropdown">
               <button className="my-dropbtn">
-                Services <i className="fa fa-caret-down"></i>
+                Services <FontAwesomeIcon icon={faCaretDown}></FontAwesomeIcon>
               </button>
               <div className="my-dropdown-content">
                 <Link to="/children">Children Nail-art Service</Link>
