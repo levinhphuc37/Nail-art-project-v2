@@ -2,6 +2,10 @@ import React from 'react';
 import './Feedback.css';
 import Header from '../header/Header';
 import Footer from '../footer/Footer';
+import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
+import { faUser } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Feedback = () => {
   return (
     <section>
@@ -21,11 +25,11 @@ const Feedback = () => {
             <div style={{ display: 'block' }}>
               <div className="contact-input">
                 <input type="text" placeholder="Name" className="form-control" required="" />
-                <i className="fas fa-user"></i>
+                <FontAwesomeIcon icon={faUser} className='icon'/>
               </div>
               <div className="contact-input">
                 <input type="email" className="form-control" id="contactemail" placeholder="Email" required="" />
-                <i className="fas fa-envelope"></i>
+                <FontAwesomeIcon icon={faEnvelope} className='icon'/>
               </div>
               <div className="contact-input">
                 <select className="form-control">
@@ -34,7 +38,7 @@ const Feedback = () => {
                   <option value="2">Grown-up Nail-art Service</option>
                   <option value="3">Production and Accessories</option>
                 </select>
-                <i className="fas fa-angle-down"></i>
+                <FontAwesomeIcon icon={faAngleDown} className='icon'/>
               </div>
             </div>
             <div className="contact-input">

@@ -8,7 +8,7 @@ import Contact from './components/contact/Contact';
 import Feedback from './components/feedback/Feedback';
 import History from './components/history/History';
 import Nailcare from './components/nailcare/Nailcare';
-import Product from './components/product/Product';
+import Product from './components/product/Product1';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {

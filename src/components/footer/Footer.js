@@ -16,11 +16,11 @@ const Footer = () => {
                   <h4>USEFUL LINKS</h4>
                   <div className="useful-link">
                       <ul className="links">
-                          <li><Link href="index">Home</Link></li>
-                          <li><Link href="aboutus">About Us</Link></li>
-                          <li><Link href="appointment"> Booking</Link></li>
-                          <li><Link href="contact">Contact Us</Link></li>
-                          <li><Link href="feedback">Feedback</Link></li>
+                          <li><Link to="/home">Home</Link></li>
+                          <li><Link to="/aboutus">About Us</Link></li>
+                          <li><Link to="/appointment"> Booking</Link></li>
+                          <li><Link to="/contact">Contact Us</Link></li>
+                          <li><Link to="/feedback">Feedback</Link></li>
                       </ul>
                   </div>
               </div>
