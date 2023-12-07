@@ -1,0 +1,44 @@
+[
+    {
+        "stepNumber": 1,
+        "title": "Step 1: Cover with base coat cure in lamp",
+        "description": "Apply a base coat: Paint a layer of base coat to create a smooth surface for your flower nail art.",
+        "imgSrc": "../images/flower/step1.png"
+    },
+    {
+        "stepNumber": 2,
+        "title": "Step 2: Choose nail polish colors",
+        "description": "Select nail polish colors for your flower design. Pastel colors are often popular for floral nail art.",
+        "imgSrc": "../images/flower/step2.png"
+    },
+    {
+        "stepNumber": 3,
+        "title": "Step 3: Basic flower shapes",
+        "description": "Draw basic flowers: Use a small, precise brush to paint flower shapes or grassy leaves.",
+        "imgSrc": "../images/flower/step3.png"
+    },
+    {
+        "stepNumber": 4,
+        "title": "Step 4: Add details",
+        "description": "Add details: Use an even smaller brush to add intricate details to your design, such as flower petals, lines, or small dots to make the flowers more vibrant.",
+        "imgSrc": "../images/flower/step4.png"
+    },
+    {
+        "stepNumber": 5,
+        "title": "Step 5: Top coat",
+        "description": "Apply a top coat: Once the nail art is dry, apply a top coat to protect and prolong the durability of your design.",
+        "imgSrc": "../images/flower/step5.png"
+    },
+    {
+        "stepNumber": 6,
+        "title": "Step 6: Final touches",
+        "description": "Check and perfect: Examine your work closely to ensure all details are perfect. If needed, add extra details or make corrections.",
+        "imgSrc": "../images/flower/step6.png"
+    },
+    {
+        "stepNumber": 7,
+        "title": "Step 7: Nail care",
+        "description": "Nail care: Finally, use nail oil or a moisturizing cream to keep your nails healthy and beautiful after completing your flower nail art.",
+        "imgSrc": "../images/crystal/step2.png"
+    }
+]

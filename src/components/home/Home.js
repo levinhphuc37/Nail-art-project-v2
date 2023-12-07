@@ -24,8 +24,6 @@ const Home = () => {
       <Header />
       <div>
         {/* Index banner */}
-        <br />
-        <br />
         <div id="demo" className="carousel slide" data-ride="carousel" style={{ zIndex: 1 }}>
           {/* Indicators */}
           <ul className="carousel-indicators">

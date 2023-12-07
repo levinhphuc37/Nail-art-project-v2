@@ -1,46 +1,19 @@
-import React from 'react';
+import React, { useState, useEffect} from 'react';
 import Header from '../header/Header';
 import Footer from '../footer/Footer';
 import './Acrylic.css';
 import Step from '../step';
+import stepsData from './data.json';
 const Acrylic = () => {
-    const steps = [
-        {
-            stepNumber: 1,
-            title: "Step 1: Prep the nails",
-            description: "The first step in the acrylic application process is preparing the natural nails. This involves removing any existing nail polish, trimming and filing the nails, and pushing back the cuticles. The nails are then buffed to remove the natural shine, which allows the acrylic material to better adhere to the nails.",
-            imgSrc: "/images/Acrylic/step1.png"
-        },
-        {
-            stepNumber: 2,
-            title: "Step 2: Cleanse the nail",
-            description: "Cleaning the nails ensures that they are free from any natural oils, dirt, or residue. This clean surface provides a better foundation for the adhesion of the acrylic material, allowing it to bond more securely to the natural nails.",
-            imgSrc: "/images/Acrylic/step2.png"
-        },
-        {
-            stepNumber: 3,
-            title: "Step 3: Remove the natural shine",
-            description: "It's important to note that excessive buffing or filing can weaken the natural nails, so it should be done carefully and in moderation. Additionally, after the acrylic application and shaping, a topcoat or sealant is usually applied to restore shine and protect the acrylic nails. Proper nail preparation is a key step in the overall process, ensuring the best results for both the appearance and durability of the acrylic nail art.",
-            imgSrc: "/images/Acrylic/step3.png"
-        },
-        {
-            stepNumber: 4,
-            title: "Step 4: Tapered cuticle bit",
-            description: "It's important to note that using these tools requires skill and experience, as improper use can potentially damage the natural nails or cuticles. Nail technicians should be trained in the correct techniques and safety practices when using tapered cuticle bits or any other rotary tools.",
-            imgSrc: "/images/Acrylic/step4.png"
-        },
-        {
-            stepNumber: 5,
-            title: "Step 5: Apply nail tip",
-            description: "Applying a nail tip is a common technique in the process of creating artificial nails, especially when working with techniques like acrylic or gel extensions.",
-            imgSrc: "/images/Acrylic/step5.png"
-        },
-    ];
+    const [steps, setSteps] = useState([]);
+
+    useEffect(() => {
+        setSteps(stepsData);
+    }, []);   
     return (
         <section>
             <Header />
             <div>
-                <br /><br /><br /><br /><br />
                 {/* Acrylic banner */}
                 <section>
                     <div className="wrapper">

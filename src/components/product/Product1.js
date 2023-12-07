@@ -1,8 +1,11 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import { Link } from 'react-router-dom'
 import Footer from '../footer/Footer'
 import Header from '../header/Header'
 import './Product.css'
+import dataProduct from './dataProduct'
+import dataAccessories from './dataAccessories'
+
 
 const ProductComponent = ({name, price, imgSrc}) => {
     return (
@@ -48,50 +51,17 @@ const AccessoriesComponent = ({productName, productBio, productPrice, imgSrc}) =
 
 const Product = () => 
 {
-    const products = [
-        { name: 'Pink Lady', price: '$10.00', imgSrc: 'images/products/pink_lady.png' },
-        { name: 'Real Desire', price: '$10.00', imgSrc: 'images/products/Real Desire.png' },
-        { name: 'Secret Dreams', price: '$10.00', imgSrc: 'images/products/Secret Dreams.png' },
-        { name: 'Red Ruby', price: '$10.00', imgSrc: 'images/products/Red Ruby.png' },
-        { name: 'Pour Vous', price: '$10.00', imgSrc: 'images/products/Pour Vous.png' }, 
-        { name: 'Real Baroc', price: '$10.00', imgSrc: 'images/products/Real Baroc.png' },
-        { name: 'Fashionista', price: '$10.00', imgSrc: 'images/products/Fashionista.png' },
-        { name: 'Valentine', price: '$10.00', imgSrc: 'images/products/Valentine.png' },
-        { name: 'Inferno', price: '$10.00', imgSrc: 'images/products/Inferno.png' },
-        { name: 'Blue Marlin', price: '$10.00', imgSrc: 'images/products/Blue Marlin.png' },  
-        { name: 'Royal Novelty', price: '$10.00', imgSrc: 'images/products/Royal Novelty.png' },
-        { name: 'Roses Red', price: '$10.00', imgSrc: 'images/products/Roses Red.png' },   
-          
-         
-    ];
+    const [products, setProducts] = useState([]);
 
-    const accessoriesData = [
-        {
-          title: 'FLUIDS & REMOVERS',
-          accessories: [
-            {productName: 'Gel Cleanser', price: '$10.00', productBio: 'Cleanser perfect for finishing gel nails and removing the inhibition layer, can be used with all Nail Creation gels.', imgSrc: 'images/products/Gel-cleanser.png'},
-            {productName: 'Nail Polish Remover', price: '$10.00', productBio: 'Remover without acetone designed to remove nail polish from natural-, gel- and acrylic nails', imgSrc: 'images/products/Nail Polish Remover.png'},
-            {productName: 'Brush cleaner', price: '$10.00',productBio: 'Designed to remove acrylic and gel product residue and prevent brush hairs from damaging.' , imgSrc: 'images/products/Brush cleaner.png'},
-          ]
-        },
-        {
-          title: 'FILES',
-          accessories: [
-            {productName: 'King File', price: '$10.00', productBio: 'Sanitizable File. Thanks to its unique shape, it can be held comfortably in the hand, making filing easier. This file is used to reduce the scratch marks left after contour filing. It is also suitable for filing natural nails.', imgSrc: 'images/products/King File.png'},
-            {productName: 'Lord File', price: '$10.00', productBio: 'Sanitizable File. Thanks to its unique shape, it can be held comfortably in the hand, making filing easier. This file has two different grit sides.', imgSrc: 'images/products/Lord File.png'},
-            {productName: 'Empress File', price: '$10.00', productBio: 'Empress File Sanitizable File. The Empress is a special buffer made of padded foam that is specially designed for removing any remaining scratches in artificial nails before finishing them with the Shine Buffer. This file has two different grit sides', imgSrc: 'images/products/Empress File.png'},
-          ]
-        },
-        {
-            title: 'ACCESSORIES',
-            accessories: [
-              {productName: 'Nail Wipesroduct', price: '$10.00', productBio: 'Highly absorbent lint-free cotton wipes.', imgSrc: 'images/products/Nail Wipes.png'},
-              {productName: 'Table towels', price: '$10.00', productBio: 'Strong table protector. Available in boxes of 25.', imgSrc: 'images/products/Table towels.png'},
-              {productName: 'Blank Color Ring', price: '$10.00', productBio: 'Color ring that can be colored in with your favourite colors or Nail Art. 30 tips on the ring', imgSrc: 'images/products/Blank Color Ring.png'},
-            ]
-          },
-        // More titles and accessories...
-    ];
+    useEffect(() => {
+        setProducts(dataProduct);
+    }, []);
+
+    const [accessoriesData, setAccessoriesData] = useState([]);
+
+    useEffect(() => {
+        setAccessoriesData(dataAccessories);
+    }, []);
 
     return (
         <section>

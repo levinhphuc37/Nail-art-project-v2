@@ -1,0 +1,104 @@
+[
+    {
+      "stepNumber": 1,
+      "title": "Step 1: Buff your nail",
+      "description": "Buffing your nails is a simple process that can help improve their appearance by smoothing the surface and enhancing shine.",
+      "imgSrc": "../images/geomatric/step1.png"
+    },
+    {
+      "stepNumber": 2,
+      "title": "Step 2: Dehydrate your nail",
+      "description": "Cleaning the nails ensures that they are free from any natural oils, dirt, or residue. This clean surface provides a better foundation for the adhesion , allowing it to bond more securely to the natural nails.",
+      "imgSrc": "../images/geomatric/step2.png"
+    },
+    {
+      "stepNumber": 3,
+      "title": "Step 3: Apply a base coat",
+      "description": "Apply a base coat: Apply a thin layer of base coat to each nail and cure in lamp.",
+      "imgSrc": "../images/geomatric/step3.png"
+    },
+    {
+      "stepNumber": 4,
+      "title": "Step 4: Apply a white gel polish",
+      "description": "Apply a white gel polish: Apply a thin layer of white gel polish to each nail and cure in lamp.",
+      "imgSrc": "../images/geomatric/step4.png"
+    },
+    {
+      "stepNumber": 5,
+      "title": "Step 5: Apply a matte top coat",
+      "description": "Apply a matte top coat: Apply a matte top coat to each nail and cure in lamp.",
+      "imgSrc": "../images/geomatric/step5.png"
+    },
+    {
+      "stepNumber": 6,
+      "title": "Step 6: Apply a matte top coat",
+      "description": "Apply a matte top coat: Apply a matte top coat to each nail and cure in lamp.",
+      "imgSrc": "../images/geomatric/step6.png"
+    },
+    {
+      "stepNumber": 7,
+      "title": "Step 7: Apply a matte top coat",
+      "description": "Apply a matte top coat: Apply a matte top coat to each nail and cure in lamp.",
+      "imgSrc": "../images/geomatric/step7.png"
+    },
+    {
+      "stepNumber": 8,
+      "title": "Step 8: Apply a matte top coat",
+      "description": "Apply a matte top coat: Apply a matte top coat to each nail and cure in lamp.",
+      "imgSrc": "../images/geomatric/step8.png"
+    },
+    {
+      "stepNumber": 9,
+      "title": "Step 9: Apply a matte top coat",
+      "description": "Apply a matte top coat: Apply a matte top coat to each nail and cure in lamp.",
+      "imgSrc": "../images/geomatric/step9.png"
+    },
+    {
+      "stepNumber": 10,
+      "title": "Step 10: Apply a matte top coat",
+      "description": "Apply a matte top coat: Apply a matte top coat to each nail and cure in lamp.",
+      "imgSrc": "../images/geomatric/step10.png"
+    },
+    {
+      "stepNumber": 11,
+      "title": "Step 11: Apply a matte top coat",
+      "description": "Apply a matte top coat: Apply a matte top coat to each nail and cure in lamp.",
+      "imgSrc": "../images/geomatric/step11.png"
+    },
+    {
+      "stepNumber": 12,
+      "title": "Step 12: Apply a matte top coat",
+      "description": "Apply a matte top coat: Apply a matte top coat to each nail and cure in lamp.",
+      "imgSrc": "../images/geomatric/step12.png"
+    },
+    {
+      "stepNumber": 13,
+      "title": "Step 13: Apply a matte top coat",
+      "description": "Apply a matte top coat: Apply a matte top coat to each nail and cure in lamp.",
+      "imgSrc": "../images/geomatric/step13.png"
+    },
+    {
+      "stepNumber": 14,
+      "title": "Step 14: Apply a matte top coat",
+      "description": "Apply a top coat: Once the nail art is dry, apply a top coat to protect.",
+      "imgSrc": "../images/geomatric/step14.png"
+    },
+    {
+      "stepNumber": 15,
+      "title": "Step 15: Apply a matte top coat",
+      "description": "Apply a top coat: Once the nail art is dry, apply a top coat to protect.",
+      "imgSrc": "../images/geomatric/step15.png"
+    },
+    {
+      "stepNumber": 16,
+      "title": "Step 16: Apply a matte top coat",
+      "description": "Apply a top coat: Once the nail art is dry, apply a top coat to protect.",
+      "imgSrc": "../images/geomatric/step16.png"
+    },
+    {
+      "stepNumber": 17,
+      "title": "Step 17: Apply a matte top cure in lamp",
+      "description": "Apply a top coat: Once the nail art is dry, apply a top coat to protect.",
+      "imgSrc": "../images/geomatric/step17.png"
+    }
+]
