@@ -3,6 +3,9 @@ import Header from '../header/Header';
 import Footer from '../footer/Footer';
 import './Home.css';
 import { Link } from 'react-router-dom';
+// import 'https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js';
+// import 'https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js';
+// import 'https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js';
 const Home = () => {
   const test1 = () => {
     localStorage.setItem('name', document.getElementById("product1").getAttribute("value"));
@@ -23,10 +26,8 @@ const Home = () => {
     <section>
       <Header />
       <div>
-        {/* Index banner */}
-        <br />
-        <br />
-        <div id="demo" className="carousel slide" data-ride="carousel" style={{ zIndex: 1 }}>
+        {/* Index banner */}      
+        <div id="demo" className="carousel slide" data-ride="carousel">
           {/* Indicators */}
           <ul className="carousel-indicators">
             <li data-target="#demo" data-slide-to="0" className="active"></li>
@@ -159,7 +160,7 @@ const Home = () => {
             <div className="team-member">
               <div style={{ backgroundColor: '#efcec9' }}>
                 <img src="images/nail_art/about_us/Mikes.jpg" alt="Jordan Mike" />
-                <a href="appointment.html" onClick={() => test1()} value="Jordan Mikes" id="product1">
+                <a href="appointment" onClick={() => test1()} value="Jordan Mikes" id="product1">
                   <div><span>Jordan Mikes</span></div>
                 </a>
                 <span style={{ color: '#911429' }}>Manager</span>
@@ -168,7 +169,7 @@ const Home = () => {
             <div className="team-member">
               <div style={{ backgroundColor: '#efcec9' }}>
                 <img src="images/nail_art/about_us/Kelle.jpg" alt="Kelley Miles" />
-                <a href="appointment.html" onClick={() => test2()} value="Kelley Miles" id="product2">
+                <a href="appointment" onClick={() => test2()} value="Kelley Miles" id="product2">
                   <div><span>Kelley Miles</span></div>
                 </a>
                 <span style={{ color: '#911429' }}>Director</span>
@@ -177,7 +178,7 @@ const Home = () => {
             <div className="team-member">
               <div style={{ backgroundColor: '#efcec9' }}>
                 <img src="images/nail_art/about_us/Dan.jpg" alt="Smith Dan" />
-                <a href="appointment.html" onClick={() => test3()} value="Smith Dan" id="product3">
+                <a href="appointment" onClick={() => test3()} value="Smith Dan" id="product3">
                   <div><span>Smith Dan</span></div>
                 </a>
                 <span style={{ color: '#911429' }}>Stylist</span>
@@ -186,7 +187,7 @@ const Home = () => {
             <div className="team-member">
               <div style={{ backgroundColor: '#efcec9' }}>
                 <img src="images/nail_art/about_us/Carolyn.jpg" alt="Carolyn Olson" />
-                <a href="appointment.html" onClick={() => test4()} value="Carolyn Olson" id="product4">
+                <a href="appointment" onClick={() => test4()} value="Carolyn Olson" id="product4">
                   <div><span>Carolyn Olson</span></div>
                 </a>
                 <span style={{ color: '#911429' }}>Stylist</span>
@@ -235,53 +236,60 @@ const Home = () => {
 
         {/* Testimonial section */}
         <section>
-          <div className="testimonial">
-            <h2>Testimonial</h2>
-            <h3>What our client's say</h3>
-            <div id="demo1" className="carousel slide" data-ride="carousel">
-              {/* Indicators */}
-              <ul className="carousel-indicators">
-                <li data-target="#demo1" data-slide-to="0" className="active"></li>
-                <li data-target="#demo1" data-slide-to="1"></li>
-              </ul>
-              {/* The slideshow */}
-              <div className="carousel-inner" style={{ margin: 'auto', width: '600px' }}>
-                <div className="carousel-item active">
-                  <div className="testimonials" style={{ display: 'flex', justifyContent: 'center' }}>
-                    <div className="testimonial-item" style={{ backgroundColor: 'rgb(94, 94, 94)' }}>
-                      <p>We provide exquisite service with some of the most talented and experienced artists in the industry.
-                        My team and I compliment the face using stunning hairdressing techniques, from up-do's to fishtails.
-                        Whether you're attending a red carpet event or hosting a TV show, my makeup services will ensure you look flawless.</p>
-                      <img src="images/nail_art/index_page/testimonial-1.webp" alt="Testimonial1" />
-                      <h4>Pamela Adams</h4>
-                    </div>
-                  </div>
-                </div>
-                <div className="carousel-item">
-                  <div style={{ display: 'flex', justifyContent: 'center' }}>
-                    <div className="testimonial-item" style={{ backgroundColor: 'rgb(94, 94, 94)' }}>
-                      <p>Treat yourself to one of our signature services.
-                        Our beauty experts will make you look more beautiful and feel better than ever before.
-                        The royal treatment for the hands of a queen.
-                        Join our membership for extra benefit. Get discount monthly.
-                        Charming, bubbly, relaxing atmosphere
-                        Extraordinary nail art designs</p>
-                      <img src="images/nail_art/index_page/testimonial-2.webp" alt="Testimonial2" />
-                      <h4>Kelley Miles</h4>
-                    </div>
-                  </div>
+      <div className="testimonial">
+        <h2>Testimonial</h2>
+        <h3>What our client's say</h3>
+
+        <div id="demo1" className="carousel slide" data-ride="carousel">
+          {/* Indicators */}
+          <ul className="carousel-indicators">
+            <li data-target="#demo1" data-slide-to="0" className="active"></li>
+            <li data-target="#demo1" data-slide-to="1"></li>
+          </ul>
+
+          {/* The slideshow */}
+          <div className="carousel-inner" style={{ margin: 'auto', width: '600px', height: '245px' }}>
+            <div className="carousel-item active">
+              <div className="testimonials" style={{ display: 'flex', justifyContent: 'center' }}>
+                <div className="testimonial-item" style={{ backgroundColor: 'rgb(94, 94, 94)' }}>
+                  <p>
+                    We provide exquisite service with some of the most talented and
+                    experienced artists in the industry. My team and I compliment the face using
+                    stunning hairdressing techniques, from up-do's to fishtails. Whether you're
+                    attending a red carpet event or hosting a TV show, my makeup services will
+                    ensure you look flawless.
+                  </p>
+                  <img src="images/nail_art/index_page/testimonial-1.webp" alt="Testimonial1" />
+                  <h4>Pamela Adams</h4>
                 </div>
               </div>
-              {/* Left and right controls */}
-              <a className="carousel-control-prev" href="#demo1" data-slide="prev">
-                <span className="carousel-control-prev-icon"></span>
-              </a>
-              <a className="carousel-control-next" href="#demo1" data-slide="next">
-                <span className="carousel-control-next-icon"></span>
-              </a>
+            </div>
+            <div className="carousel-item">
+              <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <div className="testimonial-item" style={{ backgroundColor: 'rgb(94, 94, 94)' }}>
+                  <p>
+                    Treat yourself to one of our signature services. Our beauty experts will make
+                    you look more beautiful and feel better than ever before. The royal treatment
+                    for the hands of a queen. Join our membership for extra benefit. Get discount
+                    monthly. Charming, bubbly, relaxing atmosphere Extraordinary nail art designs
+                  </p>
+                  <img src="images/nail_art/index_page/testimonial-2.webp" alt="Testimonial2" />
+                  <h4>Kelley Miles</h4>
+                </div>
+              </div>
             </div>
           </div>
-        </section>
+
+          {/* Left and right controls */}
+          <a className="carousel-control-prev" href="#demo1" data-slide="prev">
+            <span className="carousel-control-prev-icon"></span>
+          </a>
+          <a className="carousel-control-next" href="#demo1" data-slide="next">
+            <span className="carousel-control-next-icon"></span>
+          </a>
+        </div>
+      </div>
+    </section>
 
         {/* News section */}
         <section>

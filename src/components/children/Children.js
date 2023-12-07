@@ -61,10 +61,10 @@ const Childen = () => {
 
         {/* children nail-art showcase */}
         <section>
-            <div className="gellary-head">
-            <h5>Our Children Nail-art Categories</h5>
-            <h3>"Tiny Hands, Big Dreams: Nails as Unique as Your Imagination!"</h3>
-            </div>
+                <div className="gellary-head">
+                <h5>Our Children Nail-art Categories</h5>
+                <h3>"Tiny Hands, Big Dreams: Nails as Unique as Your Imagination!"</h3>
+                </div>
             <div className="gellary-grid-wrapper">
             <div className="container">
                 <div className="row">
