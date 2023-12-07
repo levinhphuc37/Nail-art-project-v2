@@ -115,7 +115,7 @@ const Adult = () => {
             <div className="services">
             <div className="service">
                 <img src="images/service/service-two.jpg" alt="Service 2" />
-                <Link to="catalog/crystal">
+                <Link to="/crystal">
                 <div className="service-button">
                     <button>Crystal Nail-Art</button>
                 </div>
@@ -123,7 +123,7 @@ const Adult = () => {
             </div>
             <div className="service">
                 <img src="images/service/service-three.jpg" alt="Service 3" />
-                <Link to="catalog/polish">
+                <Link to="/polish">
                 <div className="service-button">
                     <button>Polish Nail-Art</button>
                 </div>
@@ -131,7 +131,7 @@ const Adult = () => {
             </div>
             <div className="service">
                 <img src="images/service/service-four.jpg" alt="Service 4" />
-                <Link to="catalog/flower">
+                <Link to="/flower">
                 <div className="service-button">
                     <button>Flower Nail-Art</button>
                 </div>

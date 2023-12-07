@@ -2,6 +2,7 @@ import React from 'react';
 import './Children.css';
 import Header from '../header/Header';
 import Footer from '../footer/Footer';
+import { Link } from 'react-router-dom';
 const Childen = () => {
   return (
     <section>
@@ -107,27 +108,27 @@ const Childen = () => {
             <div className="services">
             <div className="service">
                 <img src="images/service/service-two.jpg" alt="Service 2" />
-                <a href="catalog/acrylic.html">
-                <div className="service-button">
-                    <button>Acrylic Nail-Art</button>
-                </div>
-                </a>
+                <Link to="/acrylic">
+                    <div className="service-button">
+                        <button>Acrylic Nail-Art</button>
+                    </div>
+                </Link>
             </div>
             <div className="service">
                 <img src="images/service/service-three.jpg" alt="Service 3" />
-                <a href="catalog/geometric.html">
+                <Link to="/geometric">
                 <div className="service-button">
                     <button>Geomatric Nail-Art</button>
                 </div>
-                </a>
+                </Link>
             </div>
             <div className="service">
                 <img src="images/service/service-four.jpg" alt="Service 4" />
-                <a href="catalog/polish.html">
+                <Link to="/polish">
                 <div className="service-button">
                     <button>Polishing Nail-Art</button>
                 </div>
-                </a>
+                </Link>
             </div>
             </div>
         </section>
