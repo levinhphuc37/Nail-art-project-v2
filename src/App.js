@@ -9,6 +9,12 @@ import Feedback from './components/feedback/Feedback';
 import History from './components/history/History';
 import Nailcare from './components/nailcare/Nailcare';
 import Product from './components/product/Product1';
+import Acrylic from './components/acrylic/Acrylic';
+import Flower from './components/flower/Flower';
+import Geometric from './components/geometric/Geometric';
+import Polish from './components/polish/Polish';
+import Crystal from './components/crystal/Crystal';
+
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -26,6 +32,11 @@ function App() {
         <Route path="/history" element={<History />} />
         <Route path="/nailcare" element={<Nailcare />} />
         <Route path="/product" element={<Product />} />
+        <Route path="/acrylic" element={<Acrylic />} />
+        <Route path="/flower" element={<Flower />} />
+        <Route path="/geometric" element={<Geometric />} />
+        <Route path="/polish" element={<Polish />} />
+        <Route path="/crystal" element={<Crystal />} />
       </Routes>
     </Router>
   );

@@ -2,10 +2,17 @@
 /* index service css */
 
 .services {
+    
+    margin: 50px;
+    height: 100%;
     display: flex;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
-    flex-wrap: wrap;
-    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    align-items: center;
+    /* margin-top: 30px;
+    margin-bottom: 30px; */
 }
 
 .service-about {
@@ -27,21 +34,22 @@
 }
 
 .service {
+   
+    width: 23%;    
     border: 1px solid #ccc;
-    padding: 20px;
-    margin: 10px;
-    flex: 1 0 20%; 
-    box-sizing: border-box;
     text-align: center;
-    width: 100%;
 }
 
 .service img {
-    max-width: 100%;
-    max-height: 100%;
-    height: auto;
+    width: 100%;    
+    height: auto;    
 }
-
+.service a{
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    
+}
 /* about */
 .about {
     display: flex;
@@ -157,7 +165,7 @@ body, html {
     
   }
   /* banner index */
-  .banner-wrapper  {  
+  .carousel-item  {  
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -165,29 +173,29 @@ body, html {
     height: 100%;
     width: 100%;
   }  
-  .banner-wrapper img{
+  .carousel-item img{
     height: 100%;
     width: 100%;
   }
-  .banner-wrapper  a span {
+  .carousel-item  a span {
     position: relative;
   }
-  .banner-wrapper .carousel-caption {
+  .carousel-item .carousel-caption {
     position: absolute;
     right: auto;
     left: 14%;
     top: 20%;
-    max-width: 500px;
+    max-width: 600px;
   }
-  .banner-wrapper .carousel-caption .banner-head h1 {
-    max-width: 500px;
+  .carousel-item .carousel-caption .banner-head h1 {
+    max-width: 600px;
     text-align: left;
     line-height: 70px;
   }
-  .banner-wrapper .carousel-caption .banner-head h1 span {
+  .carousel-item .carousel-caption .banner-head h1 span {
     color: #911439;
   }
-  .banner-wrapper .carousel-caption .banner-head p {
+  .carousel-item .carousel-caption .banner-head p {
     text-align: left;
     color: #222222;
     padding: 30px 0;
@@ -226,22 +234,20 @@ a.readmore-btn{
 .readmore-btn:hover{background-color: #222222;}
 
 /* testimonial index */
-.testimonial {
+.testimonial {    
     width: 100%;
     text-align: center;
 }
 
-
-
 .testimonials {
-    display: flex;
+    
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 100%;
 }
 
 .testimonial-item {
-    width: 45%; 
-    margin: 10px;
+    width: 600px;    
     padding: 20px;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
 }

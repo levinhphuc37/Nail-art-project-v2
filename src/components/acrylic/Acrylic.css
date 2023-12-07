@@ -1,0 +1,97 @@
+.wrapper 
+{
+    padding: 20px;
+    text-align: center;
+    background-image: url(../../../public/images/banner-title.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 140px 0;
+}
+
+/* acrylic gallery css */
+.gellary-head 
+{
+    background-color: #efcec9;
+    padding: 50px 0 100px 0;
+    text-align: center;
+}
+
+.gellary-grid-wrapper 
+{
+    width: 100%;
+    float: left;
+}
+
+.container 
+{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.row 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.column 
+{
+    flex: 1;
+    margin: 10px;
+}
+
+.img-link 
+{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.img-link img 
+{
+    width: 100%;
+    height: auto;
+}
+
+body, html 
+{
+    height: 100%;
+    margin: 0;
+    
+}
+
+/* acrylic about  */
+.blog-wraper-one
+{
+    padding: 10px;
+    display: flex;    
+    justify-content: center;
+    align-items: center;    
+    box-sizing: border-box;    
+    height: 70%;
+}
+
+.banner-btn
+{
+    display: flex;  
+    color:white;
+    text-decoration: none;
+    width: 180px;
+    background-color: #911439;
+    height: 50px;
+    align-items: center;
+    justify-content: center;        
+}
+
+.acrylic-step-title {
+    background-color: #efcec9;
+    padding: 20px;
+    margin-bottom: 20px;
+    overflow: auto; 
+    text-align: center;
+}
+
+.row {
+    margin-bottom: 20px; /* Adjust as needed */
+}
