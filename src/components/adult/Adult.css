@@ -107,7 +107,7 @@ body, html
 }
 
 .service-about {
-    text-align: center;
+    display: flex;
     padding: 20px;
     box-sizing: border-box;
     background-color: #efcec9;

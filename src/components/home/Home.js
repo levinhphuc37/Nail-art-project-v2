@@ -88,9 +88,9 @@ const Home = () => {
 
             <h1>OUR NAIL SALON IS THE MOST POPULAR, CLEAN AND RECOMMENDED NAIL SALON</h1>
 
-            <a href="aboutus.html" className="readmore-btn">
+            <Link to="/aboutus" className="readmore-btn">
               <div><span>Read More</span></div>
-            </a>
+            </Link>
           </div>
         </section>
 
@@ -102,7 +102,7 @@ const Home = () => {
               <h3>What We Offer</h3>
               <p>It is a long established fact that a reader will be distracted by the readable content of a page...</p>
             </div>
-            <a href="aboutus.html" className="service-btn">Read More</a>
+            <Link to="/aboutus" className="service-btn">Read More</Link>
           </div>
           <div className="services">
             <div className="service">
@@ -139,7 +139,7 @@ const Home = () => {
               <h2>About US</h2>
               <h3>Why We Are The Best?</h3>
               <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
-              <a href="about.html">Find Out More</a>
+              <Link href="about.html">Find Out More</Link>
             </div>
             <div className="about-img">
               <img src="images/nail_art/index_page/about-1.jpg" alt="About us" />
@@ -157,36 +157,36 @@ const Home = () => {
             <div className="team-member">
               <div style={{ backgroundColor: '#efcec9' }}>
                 <img src="images/nail_art/about_us/Mikes.jpg" alt="Jordan Mike" />
-                <a href="appointment.html" onClick={() => test1()} value="Jordan Mikes" id="product1">
+                <Link to="/appointment" onClick={() => test1()} value="Jordan Mikes" id="product1">
                   <div><span>Jordan Mikes</span></div>
-                </a>
+                </Link>
                 <span style={{ color: '#911429' }}>Manager</span>
               </div>
             </div>
             <div className="team-member">
               <div style={{ backgroundColor: '#efcec9' }}>
                 <img src="images/nail_art/about_us/Kelle.jpg" alt="Kelley Miles" />
-                <a href="appointment.html" onClick={() => test2()} value="Kelley Miles" id="product2">
+                <Link to="/appointment" onClick={() => test2()} value="Kelley Miles" id="product2">
                   <div><span>Kelley Miles</span></div>
-                </a>
+                </Link>
                 <span style={{ color: '#911429' }}>Director</span>
               </div>
             </div>
             <div className="team-member">
               <div style={{ backgroundColor: '#efcec9' }}>
                 <img src="images/nail_art/about_us/Dan.jpg" alt="Smith Dan" />
-                <a href="appointment.html" onClick={() => test3()} value="Smith Dan" id="product3">
+                <Link to="/appointment" onClick={() => test3()} value="Smith Dan" id="product3">
                   <div><span>Smith Dan</span></div>
-                </a>
+                </Link>
                 <span style={{ color: '#911429' }}>Stylist</span>
               </div>
             </div>
             <div className="team-member">
               <div style={{ backgroundColor: '#efcec9' }}>
                 <img src="images/nail_art/about_us/Carolyn.jpg" alt="Carolyn Olson" />
-                <a href="appointment.html" onClick={() => test4()} value="Carolyn Olson" id="product4">
+                <Link to="/appointment" onClick={() => test4()} value="Carolyn Olson" id="product4">
                   <div><span>Carolyn Olson</span></div>
-                </a>
+                </Link>
                 <span style={{ color: '#911429' }}>Stylist</span>
               </div>
             </div>
