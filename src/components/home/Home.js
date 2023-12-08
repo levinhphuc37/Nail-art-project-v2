@@ -40,9 +40,9 @@ const Home = () => {
                 <div className="banner-head">
                   <h1> CHOOSE THE <span>BEST ATTITUDE</span> AND SERVICES</h1>
                   <p>Change Your Nails Look With Our Talented Stylists.</p>
-                  <a href="appointment.html" className="banner-btn">
+                  <Link to="/appointment" className="banner-btn">
                     <div><span>Get An Appointment</span> </div>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -52,9 +52,9 @@ const Home = () => {
                 <div className="banner-head">
                   <h1> SHINE THAT <span>BRIGHTENS</span></h1><h1> YOUR LIFE</h1>
                   <p>Change Your Nails Look With Our Talented Stylists.</p>
-                  <a href="appointment.html" className="banner-btn">
+                  <Link to="/appointment" className="banner-btn">
                     <div><span>Get An Appointment</span> </div>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -64,9 +64,9 @@ const Home = () => {
                 <div className="banner-head">
                   <h1> GET YOUR NAILS <span>DONE BY A</span> SKILLED NAIL ARTIST</h1>
                   <p>Change Your Nails Look With Our Talented Stylists.</p>
-                  <a href="appointment.html" className="banner-btn">
+                  <Link to="/appointment" className="banner-btn">
                     <div><span>Get An Appointment</span></div>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

@@ -4,6 +4,7 @@ import './Polish.css';
 import Header from '../header/Header';
 import Footer from '../footer/Footer';
 import stepsData from './data.json'
+import { Link } from 'react-router-dom';
 const Polish = () => {
     const [steps, setSteps] = useState([]);
 
@@ -26,12 +27,12 @@ const Polish = () => {
                         <div>
                             <h5 style={{ color: '#911429' }}>What is Polish art</h5>
                             <h3>AND WHY WE ARE THE BEST AT IT?</h3>
-                            <p>Welcome to <span><a href="index.html">CherryBlossomNail</a></span>, where creativity meets precision to redefine the art of nail design. At <span><a href="index.html">CherryBlossomNail</a></span>, we believe that every set of nails is a blank canvas awaiting a masterpiece. Established with a passion for transforming the ordinary into the extraordinary, we are your premier destination for professional nail art services.</p>
+                            <p>Welcome to <span><Link to="/home">CherryBlossomNail</Link></span>, where creativity meets precision to redefine the art of nail design. At <span><Link to="/home">CherryBlossomNail</Link></span>, we believe that every set of nails is a blank canvas awaiting a masterpiece. Established with a passion for transforming the ordinary into the extraordinary, we are your premier destination for professional nail art services.</p>                            
                             <p>Nail polish is a lacquer that can be applied to the human fingernail or toenails to decorate and protect the nail plates. The formula has been revised repeatedly to enhance its decorative properties, to be safer for the consumer to use, and to suppress cracking or peeling. Nail polish consists of a mix of an organic polymer and several other components that give it colors and textures.</p>
                             <div>
-                                <a href="../appointment.html" className="banner-btn">
+                                <Link to="/appointment" className="banner-btn">
                                     <div><span>Make An Appointment</span></div>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         <div style={{ padding: '30px' }}><img src="../images/staff-2.png" alt="img" /></div>

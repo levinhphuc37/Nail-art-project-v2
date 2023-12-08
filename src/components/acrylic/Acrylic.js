@@ -1,15 +1,16 @@
-import React, { useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import Header from '../header/Header';
 import Footer from '../footer/Footer';
 import './Acrylic.css';
 import Step from '../step';
 import stepsData from './data.json';
+import { Link } from 'react-router-dom';
 const Acrylic = () => {
     const [steps, setSteps] = useState([]);
 
     useEffect(() => {
         setSteps(stepsData);
-    }, []);   
+    }, []);
     return (
         <section>
             <Header />
@@ -26,12 +27,12 @@ const Acrylic = () => {
                         <div>
                             <h5 style={{ color: '#911429' }}>What is Acrylic art</h5>
                             <h3>AND WHY WE ARE THE BEST AT IT?</h3>
-                            <p>Welcome to <span><a href="index.html">CherryBlossomNail</a></span>, where creativity meets precision to redefine the art of nail design. At <span><a href="index.html">CherryBlossomNail</a></span>, we believe that every set of nails is a blank canvas awaiting a masterpiece. Established with a passion for transforming the ordinary into the extraordinary, we are your premier destination for professional nail art services.</p>
+                            <p>Welcome to <span><Link to="/home">CherryBlossomNail</Link></span>, where creativity meets precision to redefine the art of nail design. At <span><Link to="/home">CherryBlossomNail</Link></span>, we believe that every set of nails is a blank canvas awaiting a masterpiece. Established with a passion for transforming the ordinary into the extraordinary, we are your premier destination for professional nail art services.</p>
                             <p>Acrylic nail art refers to a form of artificial nail enhancement that involves the application of acrylic powder and liquid to the natural nails. This technique allows for the creation of durable and customizable artificial nails that can be shaped, extended, and adorned with various designs. </p>
                             <div>
-                                <a href="appointment.html" className="banner-btn">
+                                <Link to="/appointment" className="banner-btn">
                                     <div><span>Make An Appointment</span></div>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         <div style={{ padding: '30px' }}><img src="/images/Acrylic/bn1.jpg" alt="img" /></div>

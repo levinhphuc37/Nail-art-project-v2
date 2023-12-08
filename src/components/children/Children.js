@@ -19,12 +19,7 @@ const Childen = () => {
                 <div className="blog-wraper-one">
                     <div>
                         <h5 style={{ color: '#911429' }}>About Childen Nail-art Service</h5>
-                        <p>
-                            Welcome to <span><a href="index.html">CherryBlossomNail</a></span>, where creativity meets precision to
-                            redefine the art of nail design. At <span><a href="index.html">CherryBlossomNail</a></span>, we believe that
-                            every set of nails is a blank canvas awaiting a masterpiece. Established with a passion for transforming the
-                            ordinary into the extraordinary, we are your premier destination for professional nail art services.
-                        </p>
+                        <p>Welcome to <span><Link to="/home">CherryBlossomNail</Link></span>, where creativity meets precision to redefine the art of nail design. At <span><a href="index.html">CherryBlossomNail</a></span>, we believe that every set of nails is a blank canvas awaiting a masterpiece. Established with a passion for transforming the ordinary into the extraordinary, we are your premier destination for professional nail art services.</p>
                         <h3>What is children Nail-art?</h3>
                         <p>
                             Children Nail Art at [Salon Name] is a specialized service designed to bring joy and excitement to the little
@@ -47,11 +42,9 @@ const Childen = () => {
                             expertise to create intricate designs that capture the imagination of young minds.
                         </p>
                         <div>
-                            <a href="appointment.html" className="banner-btn">
-                                <div>
-                                    <span>Make An Appointment</span>
-                                </div>
-                            </a>
+                            <Link to="/appointment" className="banner-btn">
+                                <div><span>Make An Appointment</span></div>
+                            </Link>
                         </div>
                     </div>
                     <div style={{ padding: '30px' }}>

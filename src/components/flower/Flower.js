@@ -1,9 +1,10 @@
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import Header from '../header/Header';
 import Footer from '../footer/Footer';
 import './Flower.css';
 import Step from '../step';
 import stepsData from './data.json';
+import { Link } from 'react-router-dom';
 const Flower = () => {
     const [steps, setSteps] = useState([]);
     useEffect(() => {
@@ -25,14 +26,11 @@ const Flower = () => {
                         <div>
                             <h5 style={{ color: '#911429' }}>What is Flower art</h5>
                             <h3>AND WHY WE ARE THE BEST AT IT?</h3>
-                            <p>Welcome to <span><a href="index.html">CherryBlossomNail</a></span>, where creativity meets precision to redefine the art of nail design. At <span><a href="index.html">CherryBlossomNail</a></span>, we believe that every set of nails is a blank canvas awaiting a masterpiece. Established with a passion for transforming the ordinary into the extraordinary, we are your premier destination for professional nail art services.</p>
-                            <p>
+                            <p>Welcome to <span><Link to="/home">CherryBlossomNail</Link></span>, where creativity meets precision to redefine the art of nail design. At <span><Link to="/home">CherryBlossomNail</Link></span>, we believe that every set of nails is a blank canvas awaiting a masterpiece. Established with a passion for transforming the ordinary into the extraordinary, we are your premier destination for professional nail art services.</p>                            <p>
                                 Flower nail art is a creative and expressive form of nail decoration that involves painting intricate floral designs on the nails. This popular nail art style allows individuals to showcase their artistic flair and add a touch of nature and beauty to their fingertips. Whether done at home or by a professional nail artist, flower nail art offers a wide range of possibilities for customization and personalization.</p>
-                            <div>
-                                <a href="appointment.html" className="banner-btn">
-                                    <div><span>Make An Appointment</span></div>
-                                </a>
-                            </div>
+                            <Link to="/appointment" className="banner-btn">
+                                <div><span>Make An Appointment</span></div>
+                            </Link>
                         </div>
                         <div style={{ padding: '30px' }}><img src="../images/staff-2.png" alt="img" /></div>
                     </div>
