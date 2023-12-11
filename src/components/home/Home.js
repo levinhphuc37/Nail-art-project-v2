@@ -3,9 +3,7 @@ import Header from '../header/Header';
 import Footer from '../footer/Footer';
 import './Home.css';
 import { Link } from 'react-router-dom';
-// import 'https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js';
-// import 'https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js';
-// import 'https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js';
+import TestimonialSection from '../bannerindex/banner'
 const Home = () => {
   const test1 = () => {
     localStorage.setItem('name', document.getElementById("product1").getAttribute("value"));
@@ -24,7 +22,7 @@ const Home = () => {
   }
   
   const [currentSlide, setCurrentSlide] = useState(0);
-  const totalSlides = 3; // Số lượng slides
+  const totalSlides = 3; 
   
   const nextSlide = () => {
     setCurrentSlide((prevSlide) => (prevSlide === totalSlides - 1 ? 0 : prevSlide + 1));
@@ -37,10 +35,11 @@ const Home = () => {
   return (
     <section>
       <Header />
+    
       <div className="simple-slider">
       <div className="slides" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
         <div className="slide">
-          <img src="images/nail_art/index_page/bg-slider-2.jpg" alt="img" />
+          <img src="images/bg-slider-index3.png" alt="img" />
           <div className="carousel-caption">
             <div className="banner-head">
               <h1> CHOOSE THE <span>BEST ATTITUDE</span> AND SERVICES</h1>
@@ -52,7 +51,7 @@ const Home = () => {
           </div>
         </div>
         <div className="slide">
-          <img src="images/bg-slider-index3.png" alt="img" />
+          <img src="images/nail_art/index_page/bg-slider-2.jpg" alt="img" />
           <div className="carousel-caption">
             <div className="banner-head">
               {/* <h1> SHINE THAT <span>BRIGHTENS</span></h1><h1> YOUR LIFE</h1>
@@ -81,67 +80,10 @@ const Home = () => {
           </a>
           <a className="carousel-control-next" href="#demo" data-slide="next">
             <span className="carousel-control-next-icon" onClick={prevSlide} ></span>
-          </a>
-        
+          </a>        
           </div>
       <div>
-        {/* Index banner */}      
-        {/* <div id="demo" className="carousel slide" data-ride="carousel"> */}
-          {/* Indicators */}
-          {/* <ul className="carousel-indicators">
-            <li data-target="#demo" data-slide-to="0" className="active"></li>
-            <li data-target="#demo" data-slide-to="1"></li>
-            <li data-target="#demo" data-slide-to="2"></li>
-          </ul> */}
-
-          {/* The slideshow */}
-          {/* <div className="carousel-inner">
-            <div className="carousel-item active">
-              <img src="images/nail_art/index_page/bg-slider-2.jpg" alt="img" />
-              <div className="carousel-caption">
-                <div className="banner-head">
-                  <h1> CHOOSE THE <span>BEST ATTITUDE</span> AND SERVICES</h1>
-                  <p>Change Your Nails Look With Our Talented Stylists.</p>
-                  <a href="appointment.html" className="banner-btn">
-                    <div><span>Get An Appointment</span> </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="carousel-item">
-              <img src="images/nail_art/index_page/bg-slider-2.jpg" alt="img" />
-              <div className="carousel-caption">
-                <div className="banner-head">
-                  <h1> SHINE THAT <span>BRIGHTENS</span></h1><h1> YOUR LIFE</h1>
-                  <p>Change Your Nails Look With Our Talented Stylists.</p>
-                  <a href="appointment.html" className="banner-btn">
-                    <div><span>Get An Appointment</span> </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="carousel-item">
-              <img src="images/nail_art/index_page/bg-slider-2.jpg" alt="img" />
-              <div className="carousel-caption">
-                <div className="banner-head">
-                  <h1> GET YOUR NAILS <span>DONE BY A</span> SKILLED NAIL ARTIST</h1>
-                  <p>Change Your Nails Look With Our Talented Stylists.</p>
-                  <a href="appointment.html" className="banner-btn">
-                    <div><span>Get An Appointment</span></div>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div> */}
-
-          {/* Left and right controls */}
-          {/* <a className="carousel-control-prev" href="#demo" data-slide="prev">
-            <span className="carousel-control-prev-icon"></span>
-          </a>
-          <a className="carousel-control-next" href="#demo" data-slide="next">
-            <span className="carousel-control-next-icon"></span>
-          </a>
-        </div> */}
+      
 
         {/* Index readmore */}
         <section>
@@ -349,7 +291,7 @@ const Home = () => {
         </div>
       </div>
     </section>
-
+            <TestimonialSection/>
         {/* News section */}
         <section>
           <div className="newsletter">
