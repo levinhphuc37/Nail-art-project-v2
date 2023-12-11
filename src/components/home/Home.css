@@ -1,9 +1,7 @@
 /* Index css */
 /* index service css */
 
-.services {
-    
-    margin: 50px;
+.services { 
     height: 100%;
     display: flex;
     /* flex-wrap: wrap; */
