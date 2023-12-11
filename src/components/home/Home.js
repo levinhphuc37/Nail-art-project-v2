@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{ useState } from 'react';
 import Header from '../header/Header';
 import Footer from '../footer/Footer';
 import './Home.css';
@@ -22,21 +22,80 @@ const Home = () => {
   const test4 = () => {
     localStorage.setItem('name', document.getElementById("product4").getAttribute("value"));
   }
+  
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const totalSlides = 3; // Số lượng slides
+  
+  const nextSlide = () => {
+    setCurrentSlide((prevSlide) => (prevSlide === totalSlides - 1 ? 0 : prevSlide + 1));
+  };
+  
+  const prevSlide = () => {
+    setCurrentSlide((prevSlide) => (prevSlide === 0 ? totalSlides - 1 : prevSlide - 1));
+  };
+  
   return (
     <section>
       <Header />
+      <div className="simple-slider">
+      <div className="slides" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
+        <div className="slide">
+          <img src="images/nail_art/index_page/bg-slider-2.jpg" alt="img" />
+          <div className="carousel-caption">
+            <div className="banner-head">
+              <h1> CHOOSE THE <span>BEST ATTITUDE</span> AND SERVICES</h1>
+              <p>Change Your Nails Look With Our Talented Stylists.</p>
+              <a href="appointment.html" className="banner-btn">
+                <div><span>Get An Appointment</span> </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="slide">
+          <img src="images/bg-slider-index3.png" alt="img" />
+          <div className="carousel-caption">
+            <div className="banner-head">
+              {/* <h1> SHINE THAT <span>BRIGHTENS</span></h1><h1> YOUR LIFE</h1>
+              <p>Change Your Nails Look With Our Talented Stylists.</p>
+              <a href="appointment.html" className="banner-btn">
+                <div><span>Get An Appointment</span> </div>
+              </a> */}
+            </div>
+          </div>
+        </div>
+        <div className="slide">
+          <img src="images/bg-slider-index1.png" alt="img" />
+          <div className="carousel-caption">
+            {/* <div className="banner-head">
+              <h1> GET YOUR NAILS <span>DONE BY A</span> SKILLED NAIL ARTIST</h1>
+              <p>Change Your Nails Look With Our Talented Stylists.</p>
+              <a href="appointment.html" className="banner-btn">
+                <div><span>Get An Appointment</span></div>
+              </a>
+            </div> */}
+          </div>
+        </div>
+      </div>
+          <a className="carousel-control-prev" href="#demo" data-slide="prev">
+            <span className="carousel-control-prev-icon" onClick={nextSlide}></span>
+          </a>
+          <a className="carousel-control-next" href="#demo" data-slide="next">
+            <span className="carousel-control-next-icon" onClick={prevSlide} ></span>
+          </a>
+        
+          </div>
       <div>
         {/* Index banner */}      
-        <div id="demo" className="carousel slide" data-ride="carousel">
+        {/* <div id="demo" className="carousel slide" data-ride="carousel"> */}
           {/* Indicators */}
-          <ul className="carousel-indicators">
+          {/* <ul className="carousel-indicators">
             <li data-target="#demo" data-slide-to="0" className="active"></li>
             <li data-target="#demo" data-slide-to="1"></li>
             <li data-target="#demo" data-slide-to="2"></li>
-          </ul>
+          </ul> */}
 
           {/* The slideshow */}
-          <div className="carousel-inner">
+          {/* <div className="carousel-inner">
             <div className="carousel-item active">
               <img src="images/nail_art/index_page/bg-slider-2.jpg" alt="img" />
               <div className="carousel-caption">
@@ -73,16 +132,16 @@ const Home = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* Left and right controls */}
-          <a className="carousel-control-prev" href="#demo" data-slide="prev">
+          {/* <a className="carousel-control-prev" href="#demo" data-slide="prev">
             <span className="carousel-control-prev-icon"></span>
           </a>
           <a className="carousel-control-next" href="#demo" data-slide="next">
             <span className="carousel-control-next-icon"></span>
           </a>
-        </div>
+        </div> */}
 
         {/* Index readmore */}
         <section>
