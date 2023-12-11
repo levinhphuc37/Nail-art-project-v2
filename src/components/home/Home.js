@@ -252,7 +252,7 @@ const Home = () => {
           <div className="carousel-inner" style={{ margin: 'auto', width: '600px', height: '245px' }}>
             <div className="carousel-item active">
               <div className="testimonials" style={{ display: 'flex', justifyContent: 'center' }}>
-                <div className="testimonial-item" style={{ backgroundColor: 'rgb(94, 94, 94)' }}>
+                <div className="testimonial-item" style={{ backgroundColor: 'rgb(94, 94, 94)',width: '670px', height: '245px' }}>
                   <p>
                     We provide exquisite service with some of the most talented and
                     experienced artists in the industry. My team and I compliment the face using
