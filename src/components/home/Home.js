@@ -3,7 +3,7 @@ import Header from '../header/Header';
 import Footer from '../footer/Footer';
 import './Home.css';
 import { Link } from 'react-router-dom';
-import TestimonialSection from '../bannerindex/banner'
+
 const Home = () => {
   const test1 = () => {
     localStorage.setItem('name', document.getElementById("product1").getAttribute("value"));
@@ -291,7 +291,7 @@ const Home = () => {
         </div>
       </div>
     </section>
-            <TestimonialSection/>
+          
         {/* News section */}
         <section>
           <div className="newsletter">
