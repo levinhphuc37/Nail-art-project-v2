@@ -2,7 +2,7 @@
     display: flex;
     background-color: #EFCEC9;
   }
-  
+
   .my-flex-container > div {
     margin: 10px;
     padding: 10px;

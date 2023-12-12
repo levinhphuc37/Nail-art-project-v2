@@ -192,19 +192,21 @@ body, html {
     max-width: 600px;
   }
   .slide .carousel-caption .banner-head h1 {
+ 
     max-width: 600px;
     text-align: left;
     line-height: 70px;
   }
   .slide .carousel-caption .banner-head h1 span {
+   
     color: #911439;
   }
   .slide .carousel-caption .banner-head p {
+    
     text-align: left;
     color: #222222;
     padding: 30px 0;
   }
- 
   .banner-btn{
     display: flex;  
     color:white;
@@ -216,11 +218,12 @@ body, html {
     justify-content: center;        
   }
   .banner-btn:hover{background-color:#222222}
-
+  .col-1 {width: 8.33%;}
   .simple-slider {
     position: relative;
     width: 100%;
     overflow: hidden;
+   
   }
   
   .slides {
@@ -231,7 +234,7 @@ body, html {
   .slide {
     flex: 0 0 100%;
   }
-  
+
   /* button {
     position: absolute;
     top: 50%;

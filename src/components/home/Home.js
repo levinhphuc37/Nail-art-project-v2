@@ -35,7 +35,7 @@ const Home = () => {
   return (
     <section>
       <Header />
-    
+      
       <div className="simple-slider">
       <div className="slides" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
         <div className="slide">
@@ -75,14 +75,14 @@ const Home = () => {
           </div>
         </div>
       </div>
-          <a className="carousel-control-prev" href="#demo" data-slide="prev">
+          <a className="carousel-control-prev col-1"  href="#demo" data-slide="prev">
             <span className="carousel-control-prev-icon" onClick={nextSlide}></span>
           </a>
           <a className="carousel-control-next" href="#demo" data-slide="next">
             <span className="carousel-control-next-icon" onClick={prevSlide} ></span>
           </a>        
-          </div>
-      <div>
+      </div>
+      
       
 
         {/* Index readmore */}
@@ -303,7 +303,8 @@ const Home = () => {
             </form>
           </div>
         </section>
-      </div>
+      
+     
       <Footer />
       </section>
 
