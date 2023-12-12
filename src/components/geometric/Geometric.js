@@ -1,118 +1,19 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import './Geometric.css'
 import Header from '../header/Header'
 import Footer from '../footer/Footer'
 import Step from '../step'
+import stepsData from './data.json'
+import { Link } from 'react-router-dom';
 const Geometric = () => {
-  const steps = [
-    {
-      stepNumber: 1,
-      title: "Step 1: Buff your nail",
-      description: "Buffing your nails is a simple process that can help improve their appearance by smoothing the surface and enhancing shine.",
-      imgSrc: "../images/geomatric/step1.png"
-    },
-    {
-      stepNumber: 2,
-      title: "Step 2: Dehydrate your nail",
-      description: "Cleaning the nails ensures that they are free from any natural oils, dirt, or residue. This clean surface provides a better foundation for the adhesion , allowing it to bond more securely to the natural nails.",
-      imgSrc: "../images/geomatric/step2.png"
-    },
-    {
-      stepNumber: 3,
-      title: "Step 3: Apply a base coat",
-      description: "Apply a base coat: Apply a thin layer of base coat to each nail and cure in lamp.",
-      imgSrc: "../images/geomatric/step3.png"
-    },
-    {
-      stepNumber: 4,
-      title: "Step 4: Apply a white gel polish",
-      description: "Apply a white gel polish: Apply a thin layer of white gel polish to each nail and cure in lamp.",
-      imgSrc: "../images/geomatric/step4.png"
-    },
-    {
-      stepNumber: 5,
-      title: "Step 5: Apply a matte top coat",
-      description: "Apply a matte top coat: Apply a matte top coat to each nail and cure in lamp.",
-      imgSrc: "../images/geomatric/step5.png"
-    },
-    {
-      stepNumber: 6,
-      title: "Step 6: Apply a matte top coat",
-      description: "Apply a matte top coat: Apply a matte top coat to each nail and cure in lamp.",
-      imgSrc: "../images/geomatric/step6.png"
-    },
-    {
-      stepNumber: 7,
-      title: "Step 7: Apply a matte top coat",
-      description: "Apply a matte top coat: Apply a matte top coat to each nail and cure in lamp.",
-      imgSrc: "../images/geomatric/step7.png"
-    },
-    {
-      stepNumber: 8,
-      title: "Step 8: Apply a matte top coat",
-      description: "Apply a matte top coat: Apply a matte top coat to each nail and cure in lamp.",
-      imgSrc: "../images/geomatric/step8.png"
-    },
-    {
-      stepNumber: 9,
-      title: "Step 9: Apply a matte top coat",
-      description: "Apply a matte top coat: Apply a matte top coat to each nail and cure in lamp.",
-      imgSrc: "../images/geomatric/step9.png"
-    },
-    {
-      stepNumber: 10,
-      title: "Step 10: Apply a matte top coat",
-      description: "Apply a matte top coat: Apply a matte top coat to each nail and cure in lamp.",
-      imgSrc: "../images/geomatric/step10.png"
-    },
-    {
-      stepNumber: 11,
-      title: "Step 11: Apply a matte top coat",
-      description: "Apply a matte top coat: Apply a matte top coat to each nail and cure in lamp.",
-      imgSrc: "../images/geomatric/step11.png"
-    },
-    {
-      stepNumber: 12,
-      title: "Step 12: Apply a matte top coat",
-      description: "Apply a matte top coat: Apply a matte top coat to each nail and cure in lamp.",
-      imgSrc: "../images/geomatric/step12.png"
-    },
-    {
-      stepNumber: 13,
-      title: "Step 13: Apply a matte top coat",
-      description: "Apply a matte top coat: Apply a matte top coat to each nail and cure in lamp.",
-      imgSrc: "../images/geomatric/step13.png"
-    },
-    {
-      stepNumber: 14,
-      title: "Step 14: Apply a matte top coat",
-      description: "Apply a top coat: Once the nail art is dry, apply a top coat to protect.",
-      imgSrc: "../images/geomatric/step14.png"
-    },
-    {
-      stepNumber: 15,
-      title: "Step 15: Apply a matte top coat",
-      description: "Apply a top coat: Once the nail art is dry, apply a top coat to protect.",
-      imgSrc: "../images/geomatric/step15.png"
-    },
-    {
-      stepNumber: 16,
-      title: "Step 16: Apply a matte top coat",
-      description: "Apply a top coat: Once the nail art is dry, apply a top coat to protect.",
-      imgSrc: "../images/geomatric/step16.png"
-    },
-    {
-      stepNumber: 17,
-      title: "Step 17: Apply a matte top cure in lamp",
-      description: "Apply a top coat: Once the nail art is dry, apply a top coat to protect.",
-      imgSrc: "../images/geomatric/step17.png"
-    }
-  ];
+  const [steps, setSteps] = useState([])
+  useEffect(() => {
+    setSteps(stepsData)
+  }, [])
   return (
     <section>
       <Header />
       <div>
-        <br /><br /><br /><br /><br />
         {/* Geometric banner */}
         <section>
           <div className="wrapper">
@@ -125,12 +26,12 @@ const Geometric = () => {
             <div>
               <h5 style={{ color: '#911429' }}>What is Geometric art</h5>
               <h3>AND WHY WE ARE THE BEST AT IT?</h3>
-              <p>Welcome to <span><a href="index.html">CherryBlossomNail</a></span>, where creativity meets precision to redefine the art of nail design. At <span><a href="index.html">CherryBlossomNail</a></span>, we believe that every set of nails is a blank canvas awaiting a masterpiece. Established with a passion for transforming the ordinary into the extraordinary, we are your premier destination for professional nail art services.</p>
+              <p>Welcome to <span><Link to="/home">CherryBlossomNail</Link></span>, where creativity meets precision to redefine the art of nail design. At <span><Link to="/home">CherryBlossomNail</Link></span>, we believe that every set of nails is a blank canvas awaiting a masterpiece. Established with a passion for transforming the ordinary into the extraordinary, we are your premier destination for professional nail art services.</p>              
               <p>Geometric nails are a popular nail art trend, known for using geometric shapes such as lines, squares, triangles, and curves to create artistic nail designs. This creates a modern, elegant and sometimes even sophisticated look, depending on the nail technician's creativity.</p>
               <div>
-                <a href="appointment.html" className="banner-btn">
+                <Link to="/appointment" className="banner-btn">
                   <div><span>Make An Appointment</span></div>
-                </a>
+                </Link>
               </div>
             </div>
             <div style={{ padding: '30px' }}><img src="../images/staff-2.png" alt="img" /></div>

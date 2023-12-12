@@ -39,12 +39,18 @@ div p span a
   }
 
   /* children showcase  */
-.gellary-head 
+.gellary-head
 {
     background-color: #efcec9;
+<<<<<<< HEAD
     padding: 50px 0 100px 0;
     text-align: center;    
+=======
+    padding: 50px 0 50px 0;
+    text-align: center;
+>>>>>>> master
 }
+
 
 .gellary-grid-wrapper 
 {
@@ -109,18 +115,22 @@ body, html
 .service-about {
     text-align: center;
     padding: 20px;
-    box-sizing: border-box;
     background-color: #efcec9;
     width: 100%;
     overflow: hidden;
 }
 
-.service-about a {
+/* .service-about a {
     display: inline-block;
     padding: 10px 20px;
     background-color: #911439;
     color: white;
     text-decoration: none;
+} */
+
+.service-content
+{
+    text-align: center;
 }
 
 .service {

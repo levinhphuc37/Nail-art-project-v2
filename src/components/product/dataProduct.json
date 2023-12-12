@@ -1,0 +1,14 @@
+[
+    { "name": "Pink Lady", "price": "$10.00", "imgSrc": "images/products/pink_lady.png" },
+    { "name": "Real Desire", "price": "$10.00", "imgSrc": "images/products/Real Desire.png" },
+    { "name": "Secret Dreams", "price": "$10.00", "imgSrc": "images/products/Secret Dreams.png" },
+    { "name": "Red Ruby", "price": "$10.00", "imgSrc": "images/products/Red Ruby.png" },
+    { "name": "Pour Vous", "price": "$10.00", "imgSrc": "images/products/Pour Vous.png" }, 
+    { "name": "Real Baroc", "price": "$10.00", "imgSrc": "images/products/Real Baroc.png" },
+    { "name": "Fashionista", "price": "$10.00", "imgSrc": "images/products/Fashionista.png" },
+    { "name": "Valentine", "price": "$10.00", "imgSrc": "images/products/Valentine.png" },
+    { "name": "Inferno", "price": "$10.00", "imgSrc": "images/products/Inferno.png" },
+    { "name": "Blue Marlin", "price": "$10.00", "imgSrc": "images/products/Blue Marlin.png" },  
+    { "name": "Royal Novelty", "price": "$10.00", "imgSrc": "images/products/Royal Novelty.png" },
+    { "name": "Roses Red", "price": "$10.00", "imgSrc": "images/products/Roses Red.png" }   
+]

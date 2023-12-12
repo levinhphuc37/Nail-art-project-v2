@@ -1,0 +1,57 @@
+[
+    {
+        "stepNumber": 1,
+        "title": "Step 1: Base coat",
+        "description": "Buffing your nails is a simple process that can help improve their appearance by smoothing the surface and enhancing shine.",
+        "imgSrc": "../images/crystal/step1.png"
+    },
+    {
+        "stepNumber": 2,
+        "title": "Step 2: Base colour",
+        "description": "Cleaning the nails ensures that they are free from any natural oils, dirt, or residue. This clean surface provides a better foundation for the adhesion , allowing it to bond more securely to the natural nails.",
+        "imgSrc": "../images/crystal/step3.png"
+    },
+    {
+        "stepNumber": 3,
+        "title": "Step 3: First layer",
+        "description": "\"Priming\" the nails prepares them for nail polish or other nail enhancements.",
+        "imgSrc": "../images/crystal/step5.png"
+    },
+    {
+        "stepNumber": 4,
+        "title": "Step 4: Second layer",
+        "description": "Base coat application and maintenance are intended to protect your natural nails.",
+        "imgSrc": "../images/crystal/step7.png"
+    },
+    {
+        "stepNumber": 5,
+        "title": "Step 5: Glitter",
+        "description": "This is the step to evenly distribute the shapes on the nail.",
+        "imgSrc": "../images/crystal/step9.png"
+    },
+
+    {
+        "stepNumber": 6,
+        "title": "Step 6: Foil",
+        "description": "\"Lamp cure\" is the process of using UV or LED lamps to cure (harden or set) gel nail polish and improve gel nails.",
+        "imgSrc": "../images/crystal/step11.png"
+    },
+    {
+        "stepNumber": 7,
+        "title": "Step 7: Top coat",
+        "description": "In the context of gel nail polish or gel nail enhancements, a \"sticky layer\" often refers to the residual tacky or sticky residue that remains on the nails after curing the final layer (usually the top coat) under a UV or LED lamp. This sticky layer is also known as the \"inhibition layer\" or \"uncured layer.",
+        "imgSrc": "../images/crystal/step12.png"
+    },
+    {
+        "stepNumber": 8,
+        "title": "Step 8: Cure",
+        "description": "Always work with caution and patience to avoid over-filing or damaging the artificial nails. If you're unsure or uncomfortable doing this yourself, consider seeking the assistance of a professional nail technician who can address the issue effectively.",
+        "imgSrc": "../images/crystal/step13.png"
+    },
+    {
+        "stepNumber": 9,
+        "title": "Step 9: Finished",
+        "description": "Dehydrator is a solution used in the nail care and nail enhancement process to remove excess oils and moisture from the natural nails. It helps improve adhesion when applying artificial materials like acrylic or gel.",
+        "imgSrc": "../images/crystal/step14.png"
+    }
+]

@@ -1,0 +1,110 @@
+[
+    {
+        "stepNumber": 1,
+        "title": "Step 1: Prep the nails",
+        "description": "The first step in the acrylic application process is preparing the natural nails. This involves removing any existing nail polish, trimming and filing the nails, and pushing back the cuticles. The nails are then buffed to remove the natural shine, which allows the acrylic material to better adhere to the nails.",
+        "imgSrc": "/images/Acrylic/step1.png"
+    },
+    {
+        "stepNumber": 2,
+        "title": "Step 2: Cleanse the nail",
+        "description": "Cleaning the nails ensures that they are free from any natural oils, dirt, or residue. This clean surface provides a better foundation for the adhesion of the acrylic material, allowing it to bond more securely to the natural nails.",
+        "imgSrc": "/images/Acrylic/step2.png"
+    },
+    {
+        "stepNumber": 3,
+        "title": "Step 3: Remove the natural shine",
+        "description": "It's important to note that excessive buffing or filing can weaken the natural nails, so it should be done carefully and in moderation. Additionally, after the acrylic application and shaping, a topcoat or sealant is usually applied to restore shine and protect the acrylic nails. Proper nail preparation is a key step in the overall process, ensuring the best results for both the appearance and durability of the acrylic nail art.",
+        "imgSrc": "/images/Acrylic/step3.png"
+    },
+    {
+        "stepNumber": 4,
+        "title": "Step 4: Tapered cuticle bit",
+        "description": "It's important to note that using these tools requires skill and experience, as improper use can potentially damage the natural nails or cuticles. Nail technicians should be trained in the correct techniques and safety practices when using tapered cuticle bits or any other rotary tools.",
+        "imgSrc": "/images/Acrylic/step4.png"
+    },
+    {
+        "stepNumber": 5,
+        "title": "Step 5: Apply nail tip",
+        "description": "Applying a nail tip is a common technique in the process of creating artificial nails, especially when working with techniques like acrylic or gel extensions.",
+        "imgSrc": "/images/Acrylic/step5.png"
+    },
+
+    {
+        "stepNumber": 6,
+        "title": "Step 6: Apply acrylic",
+        "description": "The acrylic material is then applied to the nails, either by using a brush to apply the acrylic powder and liquid directly to the nails or by dipping the nails into a bowl of acrylic powder and liquid. The acrylic material is then shaped and molded into the desired shape and length. Once the acrylic has dried, it is buffed to smooth out any rough edges and to create a smooth surface for the nail art design.",
+        "imgSrc": "/images/Acrylic/step6.png"
+    },
+    {
+        "stepNumber": 7,
+        "title": "Step 7: Apply top coat",
+        "description": "Once the acrylic has dried, it is buffed to smooth out any rough edges and to create a smooth surface for the nail art design.",
+        "imgSrc": "/images/Acrylic/step7.png"
+    },
+    {
+        "stepNumber": 8,
+        "title": "Step 8: Apply nail art",
+        "description": "The acrylic material is then shaped and molded into the desired shape and length. Once the acrylic has dried, it is buffed to smooth out any rough edges and to create a smooth surface for the nail art design.",
+        "imgSrc": "/images/Acrylic/step8.png"
+    },
+
+    {
+        "stepNumber": 9,
+        "title": "Step 9: Apply top coat",
+        "description": "Once the acrylic has dried, it is buffed to smooth out any rough edges and to create a smooth surface for the nail art design.",
+        "imgSrc": "/images/Acrylic/step9.png"
+    },
+    {
+        "stepNumber": 10,
+        "title": "Step 10: Apply cuticle oil",
+        "description": "Once the acrylic has dried, it is buffed to smooth out any rough edges and to create a smooth surface for the nail art design.",
+        "imgSrc": "/images/Acrylic/step10.png"
+    },
+
+    {
+        "stepNumber": 11,
+        "title": "Step 11: Apply hand cream",
+        "description": "Once the acrylic has dried, it is buffed to smooth out any rough edges and to create a smooth surface for the nail art design.",
+        "imgSrc": "/images/Acrylic/step11.png"
+    },
+    {
+        "stepNumber": 12,
+        "title": "Step 12: Finished look",
+        "description": "Once the acrylic has dried, it is buffed to smooth out any rough edges and to create a smooth surface for the nail art design.",
+        "imgSrc": "/images/Acrylic/step12.png"
+    },
+    {
+        "stepNumber": 13,
+        "title": "Step 13: Finished look",
+        "description": "Once the acrylic has dried, it is buffed to smooth out any rough edges and to create a smooth surface for the nail art design.",
+        "imgSrc": "/images/Acrylic/step13.png"
+    },
+    {
+        "stepNumber": 14,
+        "title": "Step 14: Finished look",
+        "description": "Once the acrylic has dried, it is buffed to smooth out any rough edges and to create a smooth surface for the nail art design.",
+        "imgSrc": "/images/Acrylic/step14.png"
+    },
+    {
+        "stepNumber": 15,
+        "title": "Step 15: Finished look",
+        "description": "Once the acrylic has dried, it is buffed to smooth out any rough edges and to create a smooth surface for the nail art design.",
+        "imgSrc": "/images/Acrylic/step15.png"
+    },
+
+    {
+        "stepNumber": 16,
+        "title": "Step 16: Finished look",
+        "description": "Once the acrylic has dried, it is buffed to smooth out any rough edges and to create a smooth surface for the nail art design.",
+        "imgSrc": "/images/Acrylic/step16.png"
+    },
+
+    {
+        "stepNumber": 17,
+        "title": "Step 17: Finished look",
+        "description": "Once the acrylic has dried, it is buffed to smooth out any rough edges and to create a smooth surface for the nail art design.",
+        "imgSrc": "../images/Acrylic/step17.png"
+    }
+]
+  

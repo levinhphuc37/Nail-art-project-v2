@@ -1,0 +1,56 @@
+[
+    {
+        "stepNumber": 1,
+        "title": "Step 1: Clean nails",
+        "description": "Buffing your nails is a simple process that can help improve their appearance by smoothing the surface and enhancing shine.",
+        "imgSrc": "../images/polish/step1.png"
+    },
+    {
+        "stepNumber": 2,
+        "title": "Step 2: Apply base coat",
+        "description": "Cleaning the nails ensures that they are free from any natural oils, dirt, or residue. This clean surface provides a better foundation for the adhesion , allowing it to bond more securely to the natural nails.",
+        "imgSrc": "../images/polish/step2.png"
+    },
+    {
+        "stepNumber": 3,
+        "title": "Step 3: Apply liquid latex nail tape",
+        "description": "",
+        "imgSrc": "../images/polish/step3.png"
+    },
+    {
+        "stepNumber": 4,
+        "title": "Step 4: Choose paint color",
+        "description": "Choose desired nail polish color.",
+        "imgSrc": "../images/polish/step4.png"
+    },
+    {
+        "stepNumber": 5,
+        "title": "Step 5: Paint color",
+        "description": "Choose desired nail polish color.",
+        "imgSrc": "../images/polish/step5.png"
+    },
+    {
+        "stepNumber": 6,
+        "title": "Step 6: Peel liquid latex nail tape",
+        "description": "",
+        "imgSrc": "../images/polish/step6.png"
+    },
+    {
+        "stepNumber": 7,
+        "title": "Step 7: Apply overlay",
+        "description": "Use topcoat to protect paint color and increase shine. Do this carefully to avoid creating smudges.",
+        "imgSrc": "../images/polish/step7.png"
+    },
+    {
+        "stepNumber": 8,
+        "title": "Step 8: Clean off excess coating",
+        "description": "Dùng bông tẩy nhẹ và nước cất để lau sạch lớp phủ dư thừa và làm cho móng trở nên sáng bóng.",
+        "imgSrc": "../images/polish/step8.png"
+    },
+    {
+        "stepNumber": 9,
+        "title": "Step 9: Use nail conditioner",
+        "description": "Apply nail oil to keep the nail and surrounding skin soft and supple.",
+        "imgSrc": "../images/polish/step9.png"
+    }
+]
