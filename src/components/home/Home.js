@@ -76,8 +76,8 @@ const Home = () => {
           </div>
         </div>
       </div>
-          <a className="carousel-control-prev" href="#demo" data-slide="prev">
-            <span className="carousel-control-prev-icon" onClick={nextSlide}></span>
+          <a className="carousel-control-prev col-1"  href="#demo" data-slide="prev">
+<span className="carousel-control-prev-icon" onClick={nextSlide}></span>
           </a>
           <a className="carousel-control-next" href="#demo" data-slide="next">
             <span className="carousel-control-next-icon" onClick={prevSlide} ></span>
@@ -145,7 +145,7 @@ const Home = () => {
               <h2>About US</h2>
               <h3>Why We Are The Best?</h3>
               <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
-              <Link href="about.html">Find Out More</Link>
+<Link href="about.html">Find Out More</Link>
             </div>
             <div className="about-img">
               <img src="images/nail_art/index_page/about-1.jpg" alt="About us" />
@@ -212,7 +212,7 @@ const Home = () => {
                   <a href="images/nail_art/index_page/gellary-1.jpg" title="image" className="img-link">
                     <img src="images/nail_art/index_page/gellary-1.jpg" alt="img" />
                   </a>
-                  <a href="images/nail_art/index_page/gellary-4.jpg" title="image-4" className="img-link">
+<a href="images/nail_art/index_page/gellary-4.jpg" title="image-4" className="img-link">
                     <img src="images/nail_art/index_page/gellary-4.jpg" alt="img" />
                   </a>
                 </div>
@@ -256,7 +256,8 @@ const Home = () => {
             </form>
           </div>
         </section>
-      </div>
+      
+     
       <Footer />
       </section>
 
