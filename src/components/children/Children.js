@@ -22,7 +22,7 @@ const Childen = () => {
                         <p>Welcome to <span><Link to="/home">CherryBlossomNail</Link></span>, where creativity meets precision to redefine the art of nail design. At <span><a href="index.html">CherryBlossomNail</a></span>, we believe that every set of nails is a blank canvas awaiting a masterpiece. Established with a passion for transforming the ordinary into the extraordinary, we are your premier destination for professional nail art services.</p>
                         <h3>What is children Nail-art?</h3>
                         <p>
-                            Children Nail Art at [Salon Name] is a specialized service designed to bring joy and excitement to the little
+                            Children Nail Art at CherryBlossomNail is a specialized service designed to bring joy and excitement to the little
                             ones. Our skilled nail artists are experts in creating whimsical and age-appropriate designs that cater to the
                             imagination of children. From playful patterns and cute characters to glittery finishes, our Children Nail Art
                             transforms little fingers into works of art.
