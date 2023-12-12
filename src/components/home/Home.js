@@ -4,6 +4,7 @@ import Footer from '../footer/Footer';
 import './Home.css';
 import { Link } from 'react-router-dom';
 import TextSlider from './slide';
+import Slider from './BannerSlide';
 const Home = () => {
   const test1 = () => {
     localStorage.setItem('name', document.getElementById("product1").getAttribute("value"));
@@ -35,7 +36,8 @@ const Home = () => {
   return (
     <section>
       <Header />
-      <div className="simple-slider">
+      <Slider />
+      {/* <div className="simple-slider">
       <div className="slides" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
         <div className="slide">
           <img src="images/bg-slider-index3.png" alt="img" />
@@ -53,24 +55,24 @@ const Home = () => {
           <img src="images/nail_art/index_page/bg-slider-2.jpg" alt="img" />
           <div className="carousel-caption">
             <div className="banner-head">
-              {/* <h1> SHINE THAT <span>BRIGHTENS</span></h1><h1> YOUR LIFE</h1>
+              <h1> SHINE THAT <span>BRIGHTENS</span></h1><h1> YOUR LIFE</h1>
               <p>Change Your Nails Look With Our Talented Stylists.</p>
               <a href="appointment.html" className="banner-btn">
                 <div><span>Get An Appointment</span> </div>
-              </a> */}
+              </a>
             </div>
           </div>
         </div>
         <div className="slide">
           <img src="images/bg-slider-index1.png" alt="img" />
           <div className="carousel-caption">
-            {/* <div className="banner-head">
+            <div className="banner-head">
               <h1> GET YOUR NAILS <span>DONE BY A</span> SKILLED NAIL ARTIST</h1>
               <p>Change Your Nails Look With Our Talented Stylists.</p>
               <a href="appointment.html" className="banner-btn">
                 <div><span>Get An Appointment</span></div>
               </a>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
@@ -80,7 +82,8 @@ const Home = () => {
           <a className="carousel-control-next" href="#demo" data-slide="next">
             <span className="carousel-control-next-icon" onClick={prevSlide} ></span>
           </a>        
-      </div>
+      </div> */}
+
       
       
 
@@ -235,8 +238,13 @@ const Home = () => {
         </section>
 
         {/* Testimonial section */}
-        <TextSlider/>
-          
+        <section>
+          <div className='testimonial'>
+            <h2>Testimonial</h2>
+            <h3>What our client say</h3>
+          </div>
+          <TextSlider/>
+        </section>
         {/* News section */}
         <section>
           <div className="newsletter">

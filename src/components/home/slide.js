@@ -21,7 +21,7 @@ const TextSlider = () => {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentSlide((prevSlide) => (prevSlide === slides.length - 1 ? 0 : prevSlide + 1));
-    }, 5000); // Thời gian hiển thị cho mỗi mục (5 giây)
+    }, 3000); 
 
     return () => clearInterval(intervalId);
   }, [currentSlide, slides.length]);
@@ -35,14 +35,14 @@ const TextSlider = () => {
   };
 
   return (
-    <div className="carousel-inner" style={{ margin: 'auto', width: '600px', height: '245px', overflow: 'hidden' }}>
+    <div className="carousel-inner" style={{ margin: 'auto', overflow: 'hidden'}}>
       {slides.map((slide, index) => (
         <div key={index} className={`carousel-item ${index === currentSlide ? 'active' : ''}`}>
-          <div style={{ display: 'flex', justifyContent: 'center' }}>
-            <div className="testimonial-item" style={{ backgroundColor: 'rgb(94, 94, 94)' }}>
-              <p>{slide.text}</p>
+          <div style={{ display: 'flex', justifyContent: 'center', backgroundImage: 'url("/images/bg-testimonial.png")', paddingBottom: '100px', paddingTop: '50px'}}>
+            <div className="testimonial-item" style={{ backgroundColor: '#efcec9', textAlign: 'center'}}>
+              <p style={{color: 'black'}}>{slide.text}</p>
               <img src={slide.image} alt={`Testimonial${index + 1}`} />
-              <h4>{slide.author}</h4>
+              <h4 style={{color: 'black'}}><b>{slide.author}</b></h4>
             </div>
           </div>
         </div>
