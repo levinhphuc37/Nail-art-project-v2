@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-
+import './slide.css';
 const TextSlider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
@@ -7,7 +7,7 @@ const TextSlider = () => {
     {
       text:
         "We provide exquisite service with some of the most talented and experienced artists in the industry. My team and I compliment the face using stunning hairdressing techniques, from up-do's to fishtails. Whether you're attending a red carpet event or hosting a TV show, my makeup services will ensure you look flawless.",
-      image: 'images/nail_art/index_page/testimonial-1.webp',
+      image: 'images/bg-slider-index3.png',
       author: 'Pamela Adams',
     },
     {
@@ -21,7 +21,7 @@ const TextSlider = () => {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentSlide((prevSlide) => (prevSlide === slides.length - 1 ? 0 : prevSlide + 1));
-    }, 5000); // Thời gian hiển thị cho mỗi mục (5 giây)
+    }, 3000);
 
     return () => clearInterval(intervalId);
   }, [currentSlide, slides.length]);
@@ -35,11 +35,12 @@ const TextSlider = () => {
   };
 
   return (
-    <div className="carousel-inner" style={{ margin: 'auto', width: '600px', height: '245px', overflow: 'hidden' }}>
+    
+    <div className="carousel-inner" style={{ margin: 'auto', overflow: 'hidden' }}>   
       {slides.map((slide, index) => (
         <div key={index} className={`carousel-item ${index === currentSlide ? 'active' : ''}`}>
-          <div style={{ display: 'flex', justifyContent: 'center' }}>
-            <div className="testimonial-item" style={{ backgroundColor: 'rgb(94, 94, 94)' }}>
+          <div style={{ display: 'flex', justifyContent: 'center',}}>
+            <div className="testimonial-item" style={{ backgroundColor: '#efcec9' }}>
               <p>{slide.text}</p>
               <img src={slide.image} alt={`Testimonial${index + 1}`} />
               <h4>{slide.author}</h4>
@@ -54,6 +55,7 @@ const TextSlider = () => {
         <span className="carousel-control-next-icon" aria-hidden="true"></span>
       </a>
     </div>
+   
   );
 };
 

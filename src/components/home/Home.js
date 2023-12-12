@@ -3,7 +3,7 @@ import Header from '../header/Header';
 import Footer from '../footer/Footer';
 import './Home.css';
 import { Link } from 'react-router-dom';
-import TextSlider from './slide';
+
 const Home = () => {
   const test1 = () => {
     localStorage.setItem('name', document.getElementById("product1").getAttribute("value"));
@@ -35,6 +35,7 @@ const Home = () => {
   return (
     <section>
       <Header />
+    
       <div className="simple-slider">
       <div className="slides" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
         <div className="slide">
@@ -74,14 +75,14 @@ const Home = () => {
           </div>
         </div>
       </div>
-          <a className="carousel-control-prev col-1"  href="#demo" data-slide="prev">
+          <a className="carousel-control-prev" href="#demo" data-slide="prev">
             <span className="carousel-control-prev-icon" onClick={nextSlide}></span>
           </a>
           <a className="carousel-control-next" href="#demo" data-slide="next">
             <span className="carousel-control-next-icon" onClick={prevSlide} ></span>
           </a>        
-      </div>
-      
+          </div>
+      <div>
       
 
         {/* Index readmore */}
@@ -235,7 +236,61 @@ const Home = () => {
         </section>
 
         {/* Testimonial section */}
-        <TextSlider/>
+        <section>
+      <div className="testimonial">
+        <h2>Testimonial</h2>
+        <h3>What our client's say</h3>
+
+        <div id="demo1" className="carousel slide" data-ride="carousel">
+          {/* Indicators */}
+          <ul className="carousel-indicators">
+            <li data-target="#demo1" data-slide-to="0" className="active"></li>
+            <li data-target="#demo1" data-slide-to="1"></li>
+          </ul>
+
+          {/* The slideshow */}
+          <div className="carousel-inner" style={{ margin: 'auto', width: '600px', height: '245px' }}>
+            <div className="carousel-item active">
+              <div className="testimonials" style={{ display: 'flex', justifyContent: 'center' }}>
+                <div className="testimonial-item" style={{ backgroundColor: 'rgb(94, 94, 94)',width: '670px', height: '245px' }}>
+                  <p>
+                    We provide exquisite service with some of the most talented and
+                    experienced artists in the industry. My team and I compliment the face using
+                    stunning hairdressing techniques, from up-do's to fishtails. Whether you're
+                    attending a red carpet event or hosting a TV show, my makeup services will
+                    ensure you look flawless.
+                  </p>
+                  <img src="images/nail_art/index_page/testimonial-1.webp" alt="Testimonial1" />
+                  <h4>Pamela Adams</h4>
+                </div>
+              </div>
+            </div>
+            <div className="carousel-item">
+              <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <div className="testimonial-item" style={{ backgroundColor: 'rgb(94, 94, 94)' }}>
+                  <p>
+                    Treat yourself to one of our signature services. Our beauty experts will make
+                    you look more beautiful and feel better than ever before. The royal treatment
+                    for the hands of a queen. Join our membership for extra benefit. Get discount
+                    monthly. Charming, bubbly, relaxing atmosphere Extraordinary nail art designs
+                  </p>
+                  <img src="images/nail_art/index_page/testimonial-2.webp" alt="Testimonial2" />
+                  <h4>Kelley Miles</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Left and right controls */}
+          <a className="carousel-control-prev" href="#demo1" data-slide="prev">
+            <span className="carousel-control-prev-icon"></span>
+          </a>
+          <a className="carousel-control-next" href="#demo1" data-slide="next">
+            <span className="carousel-control-next-icon"></span>
+          </a>
+        </div>
+      </div>
+    </section>
           
         {/* News section */}
         <section>
@@ -248,8 +303,7 @@ const Home = () => {
             </form>
           </div>
         </section>
-      
-     
+      </div>
       <Footer />
       </section>
 
