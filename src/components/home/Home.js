@@ -35,7 +35,6 @@ const Home = () => {
   return (
     <section>
       <Header />
-<<<<<<< HEAD
     
       <div className="simple-slider">
       <div className="slides" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
@@ -48,55 +47,6 @@ const Home = () => {
               <a href="appointment.html" className="banner-btn">
                 <div><span>Get An Appointment</span> </div>
               </a>
-=======
-      <div>
-        {/* Index banner */}
-        <div id="demo" className="carousel slide" data-ride="carousel" style={{ zIndex: 1 }}>
-          {/* Indicators */}
-          <ul className="carousel-indicators">
-            <li data-target="#demo" data-slide-to="0" className="active"></li>
-            <li data-target="#demo" data-slide-to="1"></li>
-            <li data-target="#demo" data-slide-to="2"></li>
-          </ul>
-
-          {/* The slideshow */}
-          <div className="carousel-inner">
-            <div className="carousel-item active">
-              <img src="images/nail_art/index_page/bg-slider-2.jpg" alt="img" />
-              <div className="carousel-caption">
-                <div className="banner-head">
-                  <h1> CHOOSE THE <span>BEST ATTITUDE</span> AND SERVICES</h1>
-                  <p>Change Your Nails Look With Our Talented Stylists.</p>
-                  <Link to="/appointment" className="banner-btn">
-                    <div><span>Get An Appointment</span> </div>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="carousel-item">
-              <img src="images/nail_art/index_page/bg-slider-2.jpg" alt="img" />
-              <div className="carousel-caption">
-                <div className="banner-head">
-                  <h1> SHINE THAT <span>BRIGHTENS</span></h1><h1> YOUR LIFE</h1>
-                  <p>Change Your Nails Look With Our Talented Stylists.</p>
-                  <Link to="/appointment" className="banner-btn">
-                    <div><span>Get An Appointment</span> </div>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="carousel-item">
-              <img src="images/nail_art/index_page/bg-slider-2.jpg" alt="img" />
-              <div className="carousel-caption">
-                <div className="banner-head">
-                  <h1> GET YOUR NAILS <span>DONE BY A</span> SKILLED NAIL ARTIST</h1>
-                  <p>Change Your Nails Look With Our Talented Stylists.</p>
-                  <Link to="/appointment" className="banner-btn">
-                    <div><span>Get An Appointment</span></div>
-                  </Link>
-                </div>
-              </div>
->>>>>>> master
             </div>
           </div>
         </div>
@@ -211,11 +161,7 @@ const Home = () => {
             <div className="team-member">
               <div style={{ backgroundColor: '#efcec9' }}>
                 <img src="images/nail_art/about_us/Mikes.jpg" alt="Jordan Mike" />
-<<<<<<< HEAD
-                <a href="appointment" onClick={() => test1()} value="Jordan Mikes" id="product1">
-=======
                 <Link to="/appointment" onClick={() => test1()} value="Jordan Mikes" id="product1">
->>>>>>> master
                   <div><span>Jordan Mikes</span></div>
                 </Link>
                 <span style={{ color: '#911429' }}>Manager</span>
@@ -224,11 +170,7 @@ const Home = () => {
             <div className="team-member">
               <div style={{ backgroundColor: '#efcec9' }}>
                 <img src="images/nail_art/about_us/Kelle.jpg" alt="Kelley Miles" />
-<<<<<<< HEAD
-                <a href="appointment" onClick={() => test2()} value="Kelley Miles" id="product2">
-=======
                 <Link to="/appointment" onClick={() => test2()} value="Kelley Miles" id="product2">
->>>>>>> master
                   <div><span>Kelley Miles</span></div>
                 </Link>
                 <span style={{ color: '#911429' }}>Director</span>
@@ -237,11 +179,7 @@ const Home = () => {
             <div className="team-member">
               <div style={{ backgroundColor: '#efcec9' }}>
                 <img src="images/nail_art/about_us/Dan.jpg" alt="Smith Dan" />
-<<<<<<< HEAD
-                <a href="appointment" onClick={() => test3()} value="Smith Dan" id="product3">
-=======
                 <Link to="/appointment" onClick={() => test3()} value="Smith Dan" id="product3">
->>>>>>> master
                   <div><span>Smith Dan</span></div>
                 </Link>
                 <span style={{ color: '#911429' }}>Stylist</span>
@@ -250,11 +188,7 @@ const Home = () => {
             <div className="team-member">
               <div style={{ backgroundColor: '#efcec9' }}>
                 <img src="images/nail_art/about_us/Carolyn.jpg" alt="Carolyn Olson" />
-<<<<<<< HEAD
-                <a href="appointment" onClick={() => test4()} value="Carolyn Olson" id="product4">
-=======
                 <Link to="/appointment" onClick={() => test4()} value="Carolyn Olson" id="product4">
->>>>>>> master
                   <div><span>Carolyn Olson</span></div>
                 </Link>
                 <span style={{ color: '#911429' }}>Stylist</span>
