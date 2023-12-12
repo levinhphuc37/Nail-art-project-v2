@@ -102,25 +102,26 @@ const Childen = () => {
                         <div className="service">
                             <img src="images/service/service-two.jpg" alt="Service 2" />
                             <Link to="/acrylic">
-                                <div className="service-button">
-                                    <button>Acrylic Nail-Art</button>
-                                </div>
+                                <div style={{ height: '50px', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#efcec9' }}>
+                             <span>Acrylic Nail-Art</span>
+                            </div>
                             </Link>
                         </div>
                         <div className="service">
                             <img src="images/service/service-three.jpg" alt="Service 3" />
-                            <Link to="/geometric">
-                                <div className="service-button">
-                                    <button>Geomatric Nail-Art</button>
-                                </div>
+                             <Link to="/geometric">
+                                <div style={{ height: '50px', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#efcec9' }}>
+                             <span>Geomatric Nail-Art</span>
+                            </div>
                             </Link>
                         </div>
                         <div className="service">
+                            
                             <img src="images/service/service-four.jpg" alt="Service 4" />
-                            <Link to="/polish">
-                                <div className="service-button">
-                                    <button>Polishing Nail-Art</button>
-                                </div>
+                             <Link to="/polish">
+                                <div style={{ height: '50px', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#efcec9' }}>
+                             <span>Polishing Nail-Art</span>
+                            </div>
                             </Link>
                         </div>
                     </div>

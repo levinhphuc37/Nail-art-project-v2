@@ -116,26 +116,28 @@ const Adult = () => {
             <div className="service">
                 <img src="images/service/service-two.jpg" alt="Service 2" />
                 <Link to="/crystal">
-                <div className="service-button">
-                    <button>Crystal Nail-Art</button>
+                <div style={{ height: '50px', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#efcec9' }}>
+                  <span>Crystal Nail-Art</span>
                 </div>
-                </Link>
+              </Link>
             </div>
             <div className="service">
                 <img src="images/service/service-three.jpg" alt="Service 3" />
                 <Link to="/polish">
-                <div className="service-button">
-                    <button>Polish Nail-Art</button>
+                <div style={{ height: '50px', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#efcec9' }}>
+                  <span>Polish Nail-Art</span>
                 </div>
-                </Link>
+              </Link>
+                
             </div>
             <div className="service">
                 <img src="images/service/service-four.jpg" alt="Service 4" />
                 <Link to="/flower">
-                <div className="service-button">
-                    <button>Flower Nail-Art</button>
+                <div style={{ height: '50px', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#efcec9' }}>
+                  <span>Flower Nail-Art</span>
                 </div>
-                </Link>
+              </Link>
+                
             </div>
             </div>
         </section>
