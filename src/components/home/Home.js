@@ -35,7 +35,7 @@ const Home = () => {
   return (
     <section>
       <Header />
-<<<<<<< HEAD
+      < HEAD
     
       <div className="simple-slider">
       <div className="slides" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
@@ -96,7 +96,7 @@ const Home = () => {
                   </Link>
                 </div>
               </div>
->>>>>>> master
+
             </div>
           </div>
         </div>
