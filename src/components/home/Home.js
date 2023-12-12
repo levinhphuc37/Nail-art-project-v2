@@ -35,10 +35,6 @@ const Home = () => {
   return (
     <section>
       <Header />
-<<<<<<< HEAD
-=======
-      < HEAD
->>>>>>> d8f6f3e1988ca795470b0f77bec115af125abf0e
     
       <div className="simple-slider">
       <div className="slides" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
@@ -51,58 +47,6 @@ const Home = () => {
               <a href="appointment.html" className="banner-btn">
                 <div><span>Get An Appointment</span> </div>
               </a>
-<<<<<<< HEAD
-=======
-=======
-      <div>
-        {/* Index banner */}
-        <div id="demo" className="carousel slide" data-ride="carousel" style={{ zIndex: 1 }}>
-          {/* Indicators */}
-          <ul className="carousel-indicators">
-            <li data-target="#demo" data-slide-to="0" className="active"></li>
-            <li data-target="#demo" data-slide-to="1"></li>
-            <li data-target="#demo" data-slide-to="2"></li>
-          </ul>
-
-          {/* The slideshow */}
-          <div className="carousel-inner">
-            <div className="carousel-item active">
-              <img src="images/nail_art/index_page/bg-slider-2.jpg" alt="img" />
-              <div className="carousel-caption">
-                <div className="banner-head">
-                  <h1> CHOOSE THE <span>BEST ATTITUDE</span> AND SERVICES</h1>
-                  <p>Change Your Nails Look With Our Talented Stylists.</p>
-                  <Link to="/appointment" className="banner-btn">
-                    <div><span>Get An Appointment</span> </div>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="carousel-item">
-              <img src="images/nail_art/index_page/bg-slider-2.jpg" alt="img" />
-              <div className="carousel-caption">
-                <div className="banner-head">
-                  <h1> SHINE THAT <span>BRIGHTENS</span></h1><h1> YOUR LIFE</h1>
-                  <p>Change Your Nails Look With Our Talented Stylists.</p>
-                  <Link to="/appointment" className="banner-btn">
-                    <div><span>Get An Appointment</span> </div>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="carousel-item">
-              <img src="images/nail_art/index_page/bg-slider-2.jpg" alt="img" />
-              <div className="carousel-caption">
-                <div className="banner-head">
-                  <h1> GET YOUR NAILS <span>DONE BY A</span> SKILLED NAIL ARTIST</h1>
-                  <p>Change Your Nails Look With Our Talented Stylists.</p>
-                  <Link to="/appointment" className="banner-btn">
-                    <div><span>Get An Appointment</span></div>
-                  </Link>
-                </div>
-              </div>
-
->>>>>>> d8f6f3e1988ca795470b0f77bec115af125abf0e
             </div>
           </div>
         </div>
