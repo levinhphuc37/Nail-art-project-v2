@@ -1,8 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Header from '../header/Header';
 import Footer from '../footer/Footer';
 import './Appointment.css';
 const Appointment = () => {
+  useEffect(() => {
+    const codeAddress = () => {
+      document.getElementById('name').value = localStorage.getItem('name');
+    };
+    
+    codeAddress();
+  }, []);
   return (
     <section>
       <body>
@@ -56,6 +63,15 @@ const Appointment = () => {
                     <i className="fas fa-calendar-minus"></i>
                   </span>
                 </div>
+              </div>
+              <div className="contact-input">
+                  <select className="form-control" style={{ width: '820px', height: '50px' }} id="name">
+                  <option>Jordan Mikes</option>
+                  <option>Kelley Miles</option>
+                  <option>Smith Dan</option>
+                  <option>Carolyn Olson</option>
+                  </select>
+                  <i className="fas fa-user" style={{ marginRight: '20px' }}></i>
               </div>
               <div className="contact-input">
                 <textarea placeholder="Your Text" style={{ width: '820px' }} required=""></textarea>
