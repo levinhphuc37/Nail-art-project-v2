@@ -3,6 +3,7 @@ import './Children.css';
 import Header from '../header/Header';
 import Footer from '../footer/Footer';
 import { Link } from 'react-router-dom';
+import TextSlider from '../home/Slide';
 const Childen = () => {
     return (
         <section>
@@ -139,28 +140,8 @@ const Childen = () => {
                     <div className="testimonial">
                         <h2>Testimonial</h2>
                         <h3>What our client's say</h3>
-                        <div className="testimonials">
-                            <div className="testimonial-item">
-                                <p>
-                                    We provide exquisite service with some of the most talented and experienced artists in the industry. My
-                                    team and I compliment the face using stunning hairdressing techniques, from up-do's to fishtails. Whether
-                                    you're attending a red carpet event or hosting a TV show, my makeup services will ensure you look
-                                    flawless.
-                                </p>
-                                <img src="images/service/testimonial-1.webp" alt="Testimonial 1" />
-                                <h4>Pamela Adams</h4>
-                            </div>
-                            <div className="testimonial-item">
-                                <p>
-                                    Treat yourself to one of our signature services. Our beauty experts will make you look more beautiful and
-                                    feel better than ever before. The royal treatment for the hands of a queen. Join our membership for extra
-                                    benefit. Get discount monthly. Charming, bubbly, relaxing atmosphere Extraordinary nail art designs
-                                </p>
-                                <img src="images/service/testimonial-2.webp" alt="Testimonial 2" />
-                                <h4>Kelley Miles</h4>
-                            </div>
-                        </div>
-                    </div>
+                     </div>   
+                        <TextSlider/>
                 </section>
 
                 {/* news and subscribe section */}

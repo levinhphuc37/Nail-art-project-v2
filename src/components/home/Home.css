@@ -204,7 +204,9 @@ body, html {
     background-color: #911439;
     height: 50px;
     align-items: center;
-    justify-content: center;        
+    justify-content: center;
+    border-radius: 5px; 
+    border: none;       
   }
   .banner-btn:hover{background-color:#222222}
   .col-1 {width: 8.33%;}
@@ -212,7 +214,6 @@ body, html {
     position: relative;
     width: 100%;
     overflow: hidden;
-   
   }
   
   .slides {

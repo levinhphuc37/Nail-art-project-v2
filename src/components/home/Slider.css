@@ -17,13 +17,6 @@
     position: relative;
   }
   
-  .slide-text {
-    white-space: nowrap; /* Prevent the text from wrapping */
-    overflow: hidden; /* Hide any text that overflows the element */
-    text-overflow: ellipsis; /* Display an ellipsis (...) to represent the clipped text */
-    transform: translate(-50%, -50%); /* This centers the text within the .slide */
-    text-align: center; /* Center the text horizontally */
-  }
   
   .prev, .next {
     position: absolute;
@@ -43,20 +36,11 @@
     right: 10px;
   }
 
-  .app-button
-  {
-    background-color: #911439;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 1.2em;
-    cursor: pointer;
-  }
-
   .content
   {
     position: absolute;
-    top: 25%; /* Adjust these values as needed */
-    left: 30%;
+    right: auto;
+    left: 14%;
+    top: 20%;
+    max-width: 600px;
   }

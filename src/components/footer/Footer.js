@@ -39,7 +39,7 @@ const Footer = () => {
               <div className="col-3" style={{marginTop: '10px'}}>
                   <div className="contact-info">
                       <h4>CONTACT INFO</h4>
-                      <p className="address">ADDRESS:<br/> 121 Waldeck Street, NY, USA</p> 
+                      <p className="address">ADDRESS:<br/> 8 Ton That Thuyet, Hanoi, Vietnam</p> 
                       <p className="phone">PHONE:<br/> 0800-123456, 0800-123489</p> 
                       <p className="email">EMAIL:<br/> nailartsalon@gmail.com</p> 
                   </div>

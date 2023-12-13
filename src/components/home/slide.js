@@ -7,7 +7,7 @@ const TextSlider = () => {
     {
       text:
         "We provide exquisite service with some of the most talented and experienced artists in the industry. My team and I compliment the face using stunning hairdressing techniques, from up-do's to fishtails. Whether you're attending a red carpet event or hosting a TV show, my makeup services will ensure you look flawless.",
-      image: 'images/bg-slider-index3.png',
+      image: 'images/nail_art/index_page/testimonial-1.webp',
       author: 'Pamela Adams',
     },
     {
