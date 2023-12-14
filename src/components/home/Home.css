@@ -1,9 +1,7 @@
 /* Index css */
 /* index service css */
 
-.services {
-    
-    margin: 50px;
+.services { 
     height: 100%;
     display: flex;
     /* flex-wrap: wrap; */
@@ -171,7 +169,7 @@ body, html {
     
   }
   /* banner index */
-  .carousel-item  {  
+  .slide  {  
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -179,34 +177,36 @@ body, html {
     height: 100%;
     width: 100%;
   }  
-  .carousel-item img{
+  .slide img{
     height: 100%;
     width: 100%;
   }
-  .carousel-item  a span {
+  .slide  a span {
     position: relative;
   }
-  .carousel-item .carousel-caption {
+  .slide .carousel-caption {
     position: absolute;
     right: auto;
     left: 14%;
     top: 20%;
     max-width: 600px;
   }
-  .carousel-item .carousel-caption .banner-head h1 {
+  .slide .carousel-caption .banner-head h1 {
+ 
     max-width: 600px;
     text-align: left;
     line-height: 70px;
   }
-  .carousel-item .carousel-caption .banner-head h1 span {
+  .slide .carousel-caption .banner-head h1 span {
+   
     color: #911439;
   }
-  .carousel-item .carousel-caption .banner-head p {
+  .slide .carousel-caption .banner-head p {
+    
     text-align: left;
     color: #222222;
     padding: 30px 0;
   }
- 
   .banner-btn{
     display: flex;  
     color:white;
@@ -218,6 +218,34 @@ body, html {
     justify-content: center;        
   }
   .banner-btn:hover{background-color:#222222}
+  .col-1 {width: 8.33%;}
+  .simple-slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+   
+  }
+  
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide {
+    flex: 0 0 100%;
+  }
+
+  /* button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    cursor: pointer;
+  } */
+  
+  button:first-child {
+    left: 10px;
+  }
   /* readmore index */
 .readmore{
   display: flex;
@@ -245,11 +273,11 @@ a.readmore-btn{
     text-align: center;
 }
 
-.testimonials {
-    
+.testimonials {    
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
+    
 }
 
 .testimonial-item {
