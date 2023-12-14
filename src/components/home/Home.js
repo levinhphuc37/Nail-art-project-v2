@@ -3,11 +3,7 @@ import Header from '../header/Header';
 import Footer from '../footer/Footer';
 import './Home.css';
 import { Link } from 'react-router-dom';
-<<<<<<< HEAD
-import TextSlider from './Slide';
-=======
 import TextSlider from './Slide.js';
->>>>>>> 5e7e2df7d96eb002a349d480e158163bbf66dcd0
 import Slider from './BannerSlide';
 
 const Home = () => {
