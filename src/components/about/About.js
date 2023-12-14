@@ -3,7 +3,23 @@ import { Link } from 'react-router-dom';
 import './About.css';
 import Header from '../header/Header';
 import Footer from '../footer/Footer';
+import TextSlider from '../home/Slide';
 const About = () => {
+    const test1 = () => {
+        localStorage.setItem('name', document.getElementById("product1").getAttribute("value"));
+      }
+    
+      const test2 = () => {
+        localStorage.setItem('name', document.getElementById("product2").getAttribute("value"));
+      }
+    
+      const test3 = () => {
+        localStorage.setItem('name', document.getElementById("product3").getAttribute("value"));
+      }
+    
+      const test4 = () => {
+        localStorage.setItem('name', document.getElementById("product4").getAttribute("value"));
+      }
   return (
     <section>
         <Header />
@@ -84,82 +100,55 @@ const About = () => {
             src="https://www.youtube.com/embed/JMJ4yrchiZ4">
             </iframe>
         </div>
-        <div className="blog-wraper-three">
-            <h4 style={{ color: '#911429' }}>Our Staff</h4>
-            <h3>OUR PROFESSIONALS</h3>
-        </div>
-        <div className="team">
+        <section>
+          <div className="team-title">
+            <h2>Our Team</h2>
+            <p>Meet Our Team</p>
+          </div>
+          <div className="team">
             <div className="team-member">
-            <div style={{ backgroundColor: '#efcec9' }}>
+              <div style={{ backgroundColor: '#efcec9' }}>
                 <img src="images/nail_art/about_us/Mikes.jpg" alt="Jordan Mike" />
-                <Link to="/our-team">
-                <div>
-                    <span>Jordan Mikes</span>
-                </div>
+                <Link to="/appointment" onClick={() => test1()} value="Jordan Mikes" id="product1">
+                  <div><span>Jordan Mikes</span></div>
                 </Link>
                 <span style={{ color: '#911429' }}>Manager</span>
-            </div>
+              </div>
             </div>
             <div className="team-member">
-            <div style={{ backgroundColor: '#efcec9' }}>
+              <div style={{ backgroundColor: '#efcec9' }}>
                 <img src="images/nail_art/about_us/Kelle.jpg" alt="Kelley Miles" />
-                <Link to="/our-team">
-                <div>
-                    <span>Kelley Miles</span>
-                </div>
+                <Link to="/appointment" onClick={() => test2()} value="Kelley Miles" id="product2">
+                  <div><span>Kelley Miles</span></div>
                 </Link>
                 <span style={{ color: '#911429' }}>Director</span>
-            </div>
+              </div>
             </div>
             <div className="team-member">
-            <div style={{ backgroundColor: '#efcec9' }}>
+              <div style={{ backgroundColor: '#efcec9' }}>
                 <img src="images/nail_art/about_us/Dan.jpg" alt="Smith Dan" />
-                <Link to="/our-team">
-                <div>
-                    <span>Smith Dan</span>
-                </div>
+                <Link to="/appointment" onClick={() => test3()} value="Smith Dan" id="product3">
+                  <div><span>Smith Dan</span></div>
                 </Link>
                 <span style={{ color: '#911429' }}>Stylist</span>
-            </div>
+              </div>
             </div>
             <div className="team-member">
-            <div style={{ backgroundColor: '#efcec9' }}>
+              <div style={{ backgroundColor: '#efcec9' }}>
                 <img src="images/nail_art/about_us/Carolyn.jpg" alt="Carolyn Olson" />
-                <Link to="/our-team">
-                <div>
-                    <span>Carolyn Olson</span>
-                </div>
+                <Link to="/appointment" onClick={() => test4()} value="Carolyn Olson" id="product4">
+                  <div><span>Carolyn Olson</span></div>
                 </Link>
                 <span style={{ color: '#911429' }}>Stylist</span>
+              </div>
             </div>
-            </div>
-        </div>
+          </div>
+        </section>
         <div className="blog-wraper-four">
             <h2>Testimonial</h2>
             <h3>What our client's say</h3>
-            <div className="testimonials">
-            <div className="testimonial-item">
-                <p>
-                We provide exquisite service with some of the most talented and experienced artists in the industry. My
-                team and I compliment the face using stunning hairdressing techniques, from up-do's to fishtails. Whether
-                you're attending a red carpet event or hosting a TV show, my makeup services will ensure you look
-                flawless.
-                </p>
-                <img src="images/testimonial-1.webp" alt="Testimonial 1" />
-                <h4>Pamela Adams</h4>
-            </div>
-            <div className="testimonial-item">
-                <p>
-                Treat yourself to one of our signature services. Our beauty experts will make you look more beautiful and
-                feel better than ever before. The royal treatment for the hands of a queen. Join our membership for extra
-                benefit. Get discount monthly. Charming, bubbly, relaxing atmosphere. Extraordinary nail art designs
-                </p>
-                <img src="images/testimonial-2.webp" alt="Testimonial 2" />
-                <h4>Kelley Miles</h4>
-            </div>
-            </div>
         </div>
-
+        <TextSlider/>
         <div className="blog-wraper-five">
             <h2>Newsletter</h2>
             <h3>LATEST NAIL TRENDS AND DESIGNS FOR YOU</h3>
