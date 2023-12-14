@@ -1,0 +1,46 @@
+.simple-slider {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+  }
+  
+  .slider-wrapper {
+    display: flex;
+    width: 100%;
+  }
+  
+  .slide {
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+  
+  
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2em;
+    color: white;
+    background: rgba(0,0,0,0.5);
+    border: none;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
+
+  .content
+  {
+    position: absolute;
+    right: auto;
+    left: 14%;
+    top: 20%;
+    max-width: 600px;
+  }

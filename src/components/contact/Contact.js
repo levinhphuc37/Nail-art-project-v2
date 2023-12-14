@@ -22,7 +22,7 @@ const Contact = () => {
             </div>
             <div className="contact-content">
               <h3>Address</h3>
-              <p>121 Waldeck Street, NewYork Code: #010101</p>
+              <p>8 Ton That Thuyet, Hanoi <br></br>Code: #010101</p>
             </div>
           </div>
           <div className="contact-box">

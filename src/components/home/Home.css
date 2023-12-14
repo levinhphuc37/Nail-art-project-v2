@@ -169,14 +169,7 @@ body, html {
     
   }
   /* banner index */
-  .slide  {  
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    height: 100%;
-    width: 100%;
-  }  
+ 
   .slide img{
     height: 100%;
     width: 100%;
@@ -186,19 +179,15 @@ body, html {
   }
   .slide .carousel-caption {
     position: absolute;
-    right: auto;
-    left: 14%;
-    top: 20%;
+    left: 0;  /* or right: 0; depending on your design */
     max-width: 600px;
   }
   .slide .carousel-caption .banner-head h1 {
- 
     max-width: 600px;
     text-align: left;
     line-height: 70px;
   }
   .slide .carousel-caption .banner-head h1 span {
-   
     color: #911439;
   }
   .slide .carousel-caption .banner-head p {
@@ -215,7 +204,9 @@ body, html {
     background-color: #911439;
     height: 50px;
     align-items: center;
-    justify-content: center;        
+    justify-content: center;
+    border-radius: 5px; 
+    border: none;       
   }
   .banner-btn:hover{background-color:#222222}
   .col-1 {width: 8.33%;}
@@ -223,12 +214,12 @@ body, html {
     position: relative;
     width: 100%;
     overflow: hidden;
-   
   }
   
   .slides {
     display: flex;
     transition: transform 0.5s ease-in-out;
+    
   }
   
   .slide {
