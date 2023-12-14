@@ -3,6 +3,7 @@ import './Children.css';
 import Header from '../header/Header';
 import Footer from '../footer/Footer';
 import { Link } from 'react-router-dom';
+import TextSlider from '../home/Slide';
 const Childen = () => {
     return (
         <section>
@@ -22,7 +23,7 @@ const Childen = () => {
                         <p>Welcome to <span><Link to="/home">CherryBlossomNail</Link></span>, where creativity meets precision to redefine the art of nail design. At <span><a href="index.html">CherryBlossomNail</a></span>, we believe that every set of nails is a blank canvas awaiting a masterpiece. Established with a passion for transforming the ordinary into the extraordinary, we are your premier destination for professional nail art services.</p>
                         <h3>What is children Nail-art?</h3>
                         <p>
-                            Children Nail Art at [Salon Name] is a specialized service designed to bring joy and excitement to the little
+                            Children Nail Art at CherryBlossomNail is a specialized service designed to bring joy and excitement to the little
                             ones. Our skilled nail artists are experts in creating whimsical and age-appropriate designs that cater to the
                             imagination of children. From playful patterns and cute characters to glittery finishes, our Children Nail Art
                             transforms little fingers into works of art.
@@ -139,28 +140,8 @@ const Childen = () => {
                     <div className="testimonial">
                         <h2>Testimonial</h2>
                         <h3>What our client's say</h3>
-                        <div className="testimonials">
-                            <div className="testimonial-item">
-                                <p>
-                                    We provide exquisite service with some of the most talented and experienced artists in the industry. My
-                                    team and I compliment the face using stunning hairdressing techniques, from up-do's to fishtails. Whether
-                                    you're attending a red carpet event or hosting a TV show, my makeup services will ensure you look
-                                    flawless.
-                                </p>
-                                <img src="images/service/testimonial-1.webp" alt="Testimonial 1" />
-                                <h4>Pamela Adams</h4>
-                            </div>
-                            <div className="testimonial-item">
-                                <p>
-                                    Treat yourself to one of our signature services. Our beauty experts will make you look more beautiful and
-                                    feel better than ever before. The royal treatment for the hands of a queen. Join our membership for extra
-                                    benefit. Get discount monthly. Charming, bubbly, relaxing atmosphere Extraordinary nail art designs
-                                </p>
-                                <img src="images/service/testimonial-2.webp" alt="Testimonial 2" />
-                                <h4>Kelley Miles</h4>
-                            </div>
-                        </div>
-                    </div>
+                     </div>   
+                        <TextSlider/>
                 </section>
 
                 {/* news and subscribe section */}

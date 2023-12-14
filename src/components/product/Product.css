@@ -49,3 +49,14 @@
     text-decoration: none;
 }
 
+.access-button
+{
+    width: 25%;
+    background-color: #911439;
+}
+
+.product-button
+{
+    width: 50%;
+    background-color: #911439;
+}

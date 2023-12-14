@@ -3,8 +3,13 @@ import Header from '../header/Header';
 import Footer from '../footer/Footer';
 import './Home.css';
 import { Link } from 'react-router-dom';
+<<<<<<< HEAD
 import TextSlider from './Slide';
+=======
+import TextSlider from './Slide.js';
+>>>>>>> 5e7e2df7d96eb002a349d480e158163bbf66dcd0
 import Slider from './BannerSlide';
+
 const Home = () => {
   const test1 = () => {
     localStorage.setItem('name', document.getElementById("product1").getAttribute("value"));
@@ -21,72 +26,10 @@ const Home = () => {
   const test4 = () => {
     localStorage.setItem('name', document.getElementById("product4").getAttribute("value"));
   }
-  
-  const [currentSlide, setCurrentSlide] = useState(0);
-  const totalSlides = 3; 
-  
-  const nextSlide = () => {
-    setCurrentSlide((prevSlide) => (prevSlide === totalSlides - 1 ? 0 : prevSlide + 1));
-  };
-  
-  const prevSlide = () => {
-    setCurrentSlide((prevSlide) => (prevSlide === 0 ? totalSlides - 1 : prevSlide - 1));
-  };
-  
   return (
     <section>
       <Header />
       <Slider />
-      {/* <div className="simple-slider">
-      <div className="slides" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
-        <div className="slide">
-          <img src="images/bg-slider-index3.png" alt="img" />
-          <div className="carousel-caption">
-            <div className="banner-head">
-              <h1> CHOOSE THE <span>BEST ATTITUDE</span> AND SERVICES</h1>
-              <p>Change Your Nails Look With Our Talented Stylists.</p>
-              <a href="appointment.html" className="banner-btn">
-                <div><span>Get An Appointment</span> </div>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="slide">
-          <img src="images/nail_art/index_page/bg-slider-2.jpg" alt="img" />
-          <div className="carousel-caption">
-            <div className="banner-head">
-              <h1> SHINE THAT <span>BRIGHTENS</span></h1><h1> YOUR LIFE</h1>
-              <p>Change Your Nails Look With Our Talented Stylists.</p>
-              <a href="appointment.html" className="banner-btn">
-                <div><span>Get An Appointment</span> </div>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="slide">
-          <img src="images/bg-slider-index1.png" alt="img" />
-          <div className="carousel-caption">
-            <div className="banner-head">
-              <h1> GET YOUR NAILS <span>DONE BY A</span> SKILLED NAIL ARTIST</h1>
-              <p>Change Your Nails Look With Our Talented Stylists.</p>
-              <a href="appointment.html" className="banner-btn">
-                <div><span>Get An Appointment</span></div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-          <a className="carousel-control-prev col-1"  href="#demo" data-slide="prev">
-            <span className="carousel-control-prev-icon" onClick={nextSlide}></span>
-          </a>
-          <a className="carousel-control-next" href="#demo" data-slide="next">
-            <span className="carousel-control-next-icon" onClick={prevSlide} ></span>
-          </a>        
-      </div> */}
-
-      
-      
-
         {/* Index readmore */}
         <section>
           <div className="readmore">
@@ -145,7 +88,7 @@ const Home = () => {
               <h2>About US</h2>
               <h3>Why We Are The Best?</h3>
               <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
-              <Link href="about.html">Find Out More</Link>
+              <Link to="/aboutus">Find Out More</Link>
             </div>
             <div className="about-img">
               <img src="images/nail_art/index_page/about-1.jpg" alt="About us" />

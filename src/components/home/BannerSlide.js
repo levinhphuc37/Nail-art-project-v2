@@ -6,15 +6,21 @@ const Slider = () => {
     const slides = [
         {
             image: 'images/bg-slider-index3.png',
-            text: 'CHOOSE THE BEST ATTITUDE AND SERVICES',
+            text: 'CHOOSE THE',
+            text2: 'BEST ATTITUDE',
+            text3: 'AND SERVICES',
         },
         {
             image: 'images/nail_art/index_page/bg-slider-2.jpg',
-            text: 'SHINE THAT BRIGHTENS YOUR LIFE',
+            text: 'SHINE THAT',
+            text2: 'BRIGHTENS',
+            text3: 'YOUR LIFE',
         },
         {
             image: 'images/bg-slider-index1.png',
-            text: 'GET YOUR NAILS DONE BY A SKILLED NAIL ARTIST',
+            text: 'GET YOUR NAILS',
+            text2: 'DONE BY A',
+            text3: 'SKILLED NAIL ARTIST',
         },
     ];
 
@@ -33,8 +39,9 @@ const Slider = () => {
                 {slides.map((slide, index) => (
                     <div className="slide" key={index} style={{ backgroundImage: `url(${slide.image})` }}>
                         <div className='content'>
-                            <h2 className="slide-text">{slide.text}</h2>
-                            <button className='app-button'>
+                            <h1 className="slide-text">{slide.text}<span style={{color:"#911439"}}> {slide.text2}</span> <h1>{slide.text3}</h1></h1>
+                            <p style={{padding: "30px 0"}}>Change Your Nails Look With Our Talented Stylists.</p>
+                            <button className='banner-btn'>
                                 <Link to="/appointment">Get An Appointment</Link>
                             </button>
                         </div>

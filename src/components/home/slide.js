@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-
+import './Slider.css';
 const TextSlider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
@@ -54,6 +54,7 @@ const TextSlider = () => {
         <span className="carousel-control-next-icon" aria-hidden="true"></span>
       </a>
     </div>
+   
   );
 };
 
