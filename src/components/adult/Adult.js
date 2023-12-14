@@ -115,7 +115,7 @@ const Adult = () => {
             </div>
             <div className="services">
             <div className="service">
-                <img src="images/service/service-two.jpg" alt="Service 2" />
+                <img src="images/nail_art/index_page/crystal.png" alt="Service 2" />
                 <Link to="/crystal">
                 <div style={{ height: '50px', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#efcec9' }}>
                   <span>Crystal Nail-Art</span>
@@ -123,7 +123,7 @@ const Adult = () => {
               </Link>
             </div>
             <div className="service">
-                <img src="images/service/service-three.jpg" alt="Service 3" />
+                <img src="images/nail_art/index_page/polish.png" alt="Service 3" />
                 <Link to="/polish">
                 <div style={{ height: '50px', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#efcec9' }}>
                   <span>Polish Nail-Art</span>
@@ -132,7 +132,7 @@ const Adult = () => {
                 
             </div>
             <div className="service">
-                <img src="images/service/service-four.jpg" alt="Service 4" />
+                <img src="images/nail_art/index_page/flower.png" alt="Service 4" />
                 <Link to="/flower">
                 <div style={{ height: '50px', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#efcec9' }}>
                   <span>Flower Nail-Art</span>

@@ -101,7 +101,7 @@ const Childen = () => {
                     </div>
                     <div className="services">
                         <div className="service">
-                            <img src="images/service/service-two.jpg" alt="Service 2" />
+                            <img src="images/nail_art/index_page/acrylic.png" alt="Service 2" />
                             <Link to="/acrylic">
                                 <div style={{ height: '50px', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#efcec9' }}>
                              <span>Acrylic Nail-Art</span>
@@ -109,7 +109,7 @@ const Childen = () => {
                             </Link>
                         </div>
                         <div className="service">
-                            <img src="images/service/service-three.jpg" alt="Service 3" />
+                            <img src="images/nail_art/index_page/geo.png" alt="Service 3" />
                              <Link to="/geometric">
                                 <div style={{ height: '50px', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#efcec9' }}>
                              <span>Geomatric Nail-Art</span>
@@ -118,7 +118,7 @@ const Childen = () => {
                         </div>
                         <div className="service">
                             
-                            <img src="images/service/service-four.jpg" alt="Service 4" />
+                            <img src="images/nail_art/index_page/polish.png" alt="Service 4" />
                              <Link to="/polish">
                                 <div style={{ height: '50px', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#efcec9' }}>
                              <span>Polishing Nail-Art</span>
