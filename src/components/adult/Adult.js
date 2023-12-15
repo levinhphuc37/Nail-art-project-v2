@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './Adult.css';
 import Header from '../header/Header';
 import Footer from '../footer/Footer';
+import TextSlider from '../home/Slide';
 const Adult = () => {
   return (
     <section>
@@ -114,28 +115,30 @@ const Adult = () => {
             </div>
             <div className="services">
             <div className="service">
-                <img src="images/service/service-two.jpg" alt="Service 2" />
+                <img src="images/nail_art/index_page/crystal.png" alt="Service 2" />
                 <Link to="/crystal">
-                <div className="service-button">
-                    <button>Crystal Nail-Art</button>
+                <div style={{ height: '50px', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#efcec9' }}>
+                  <span>Crystal Nail-Art</span>
                 </div>
-                </Link>
+              </Link>
             </div>
             <div className="service">
-                <img src="images/service/service-three.jpg" alt="Service 3" />
+                <img src="images/nail_art/index_page/polish.png" alt="Service 3" />
                 <Link to="/polish">
-                <div className="service-button">
-                    <button>Polish Nail-Art</button>
+                <div style={{ height: '50px', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#efcec9' }}>
+                  <span>Polish Nail-Art</span>
                 </div>
-                </Link>
+              </Link>
+                
             </div>
             <div className="service">
-                <img src="images/service/service-four.jpg" alt="Service 4" />
+                <img src="images/nail_art/index_page/flower.png" alt="Service 4" />
                 <Link to="/flower">
-                <div className="service-button">
-                    <button>Flower Nail-Art</button>
+                <div style={{ height: '50px', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#efcec9' }}>
+                  <span>Flower Nail-Art</span>
                 </div>
-                </Link>
+              </Link>
+                
             </div>
             </div>
         </section>
@@ -152,29 +155,8 @@ const Adult = () => {
             <div className="testimonial">
             <h2>Testimonial</h2>
             <h3>What our client's say</h3>
-            <div className="testimonials">
-                <div className="testimonial-item">
-                <p>
-                    We provide exquisite service with some of the most talented and experienced artists in the industry. My
-                    team and I compliment the face using stunning hairdressing techniques, from up-do's to fishtails.
-                    Whether you're attending a red carpet event or hosting a TV show, my makeup services will ensure you
-                    look flawless.
-                </p>
-                <img src="images/service/testimonial-1.webp" alt="Testimonial 1" />
-                <h4>Pamela Adams</h4>
-                </div>
-                <div className="testimonial-item">
-                <p>
-                    Treat yourself to one of our signature services. Our beauty experts will make you look more beautiful
-                    and feel better than ever before. The royal treatment for the hands of a queen. Join our membership for
-                    extra benefit. Get discount monthly. Charming, bubbly, relaxing atmosphere Extraordinary nail art
-                    designs
-                </p>
-                <img src="images/service/testimonial-2.webp" alt="Testimonial 2" />
-                <h4>Kelley Miles</h4>
-                </div>
             </div>
-            </div>
+            <TextSlider/>
         </section>
 
         {/* news and subscribe section*/}

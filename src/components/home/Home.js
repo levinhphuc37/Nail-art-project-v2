@@ -3,6 +3,8 @@ import Header from '../header/Header';
 import Footer from '../footer/Footer';
 import './Home.css';
 import { Link } from 'react-router-dom';
+import TextSlider from './Slide';
+import Slider from './BannerSlide';
 
 const Home = () => {
   const test1 = () => {
@@ -20,71 +22,10 @@ const Home = () => {
   const test4 = () => {
     localStorage.setItem('name', document.getElementById("product4").getAttribute("value"));
   }
-  
-  const [currentSlide, setCurrentSlide] = useState(0);
-  const totalSlides = 3; 
-  
-  const nextSlide = () => {
-    setCurrentSlide((prevSlide) => (prevSlide === totalSlides - 1 ? 0 : prevSlide + 1));
-  };
-  
-  const prevSlide = () => {
-    setCurrentSlide((prevSlide) => (prevSlide === 0 ? totalSlides - 1 : prevSlide - 1));
-  };
-  
   return (
     <section>
       <Header />
-      
-      <div className="simple-slider">
-      <div className="slides" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
-        <div className="slide">
-          <img src="images/bg-slider-index3.png" alt="img" />
-          <div className="carousel-caption">
-            <div className="banner-head">
-              <h1> CHOOSE THE <span>BEST ATTITUDE</span> AND SERVICES</h1>
-              <p>Change Your Nails Look With Our Talented Stylists.</p>
-              <a href="appointment.html" className="banner-btn">
-                <div><span>Get An Appointment</span> </div>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="slide">
-          <img src="images/nail_art/index_page/bg-slider-2.jpg" alt="img" />
-          <div className="carousel-caption">
-            <div className="banner-head">
-              {/* <h1> SHINE THAT <span>BRIGHTENS</span></h1><h1> YOUR LIFE</h1>
-              <p>Change Your Nails Look With Our Talented Stylists.</p>
-              <a href="appointment.html" className="banner-btn">
-                <div><span>Get An Appointment</span> </div>
-              </a> */}
-            </div>
-          </div>
-        </div>
-        <div className="slide">
-          <img src="images/bg-slider-index1.png" alt="img" />
-          <div className="carousel-caption">
-            {/* <div className="banner-head">
-              <h1> GET YOUR NAILS <span>DONE BY A</span> SKILLED NAIL ARTIST</h1>
-              <p>Change Your Nails Look With Our Talented Stylists.</p>
-              <a href="appointment.html" className="banner-btn">
-                <div><span>Get An Appointment</span></div>
-              </a>
-            </div> */}
-          </div>
-        </div>
-      </div>
-          <a className="carousel-control-prev col-1"  href="#demo" data-slide="prev">
-            <span className="carousel-control-prev-icon" onClick={nextSlide}></span>
-          </a>
-          <a className="carousel-control-next" href="#demo" data-slide="next">
-            <span className="carousel-control-next-icon" onClick={prevSlide} ></span>
-          </a>        
-      </div>
-      
-      
-
+      <Slider />
         {/* Index readmore */}
         <section>
           <div className="readmore">
@@ -143,7 +84,7 @@ const Home = () => {
               <h2>About US</h2>
               <h3>Why We Are The Best?</h3>
               <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
-              <Link href="about.html">Find Out More</Link>
+              <Link to="/aboutus">Find Out More</Link>
             </div>
             <div className="about-img">
               <img src="images/nail_art/index_page/about-1.jpg" alt="About us" />
@@ -237,61 +178,12 @@ const Home = () => {
 
         {/* Testimonial section */}
         <section>
-      <div className="testimonial">
-        <h2>Testimonial</h2>
-        <h3>What our client's say</h3>
-
-        <div id="demo1" className="carousel slide" data-ride="carousel">
-          {/* Indicators */}
-          <ul className="carousel-indicators">
-            <li data-target="#demo1" data-slide-to="0" className="active"></li>
-            <li data-target="#demo1" data-slide-to="1"></li>
-          </ul>
-
-          {/* The slideshow */}
-          <div className="carousel-inner" style={{ margin: 'auto', width: '600px', height: '245px' }}>
-            <div className="carousel-item active">
-              <div className="testimonials" style={{ display: 'flex', justifyContent: 'center' }}>
-                <div className="testimonial-item" style={{ backgroundColor: 'rgb(94, 94, 94)',width: '670px', height: '245px' }}>
-                  <p>
-                    We provide exquisite service with some of the most talented and
-                    experienced artists in the industry. My team and I compliment the face using
-                    stunning hairdressing techniques, from up-do's to fishtails. Whether you're
-                    attending a red carpet event or hosting a TV show, my makeup services will
-                    ensure you look flawless.
-                  </p>
-                  <img src="images/nail_art/index_page/testimonial-1.webp" alt="Testimonial1" />
-                  <h4>Pamela Adams</h4>
-                </div>
-              </div>
-            </div>
-            <div className="carousel-item">
-              <div style={{ display: 'flex', justifyContent: 'center' }}>
-                <div className="testimonial-item" style={{ backgroundColor: 'rgb(94, 94, 94)' }}>
-                  <p>
-                    Treat yourself to one of our signature services. Our beauty experts will make
-                    you look more beautiful and feel better than ever before. The royal treatment
-                    for the hands of a queen. Join our membership for extra benefit. Get discount
-                    monthly. Charming, bubbly, relaxing atmosphere Extraordinary nail art designs
-                  </p>
-                  <img src="images/nail_art/index_page/testimonial-2.webp" alt="Testimonial2" />
-                  <h4>Kelley Miles</h4>
-                </div>
-              </div>
-            </div>
+          <div className='testimonial'>
+            <h2>Testimonial</h2>
+            <h3>What our client say</h3>
           </div>
-
-          {/* Left and right controls */}
-          <a className="carousel-control-prev" href="#demo1" data-slide="prev">
-            <span className="carousel-control-prev-icon"></span>
-          </a>
-          <a className="carousel-control-next" href="#demo1" data-slide="next">
-            <span className="carousel-control-next-icon"></span>
-          </a>
-        </div>
-      </div>
-    </section>
-          
+          <TextSlider/>
+        </section>
         {/* News section */}
         <section>
           <div className="newsletter">
