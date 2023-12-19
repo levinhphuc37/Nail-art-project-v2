@@ -151,7 +151,7 @@ const Childen = () => {
                         <h3>LATEST NAIL TRENDS AND DESIGNS FOR YOU</h3>
                         <form className="subscribe-form">
                             <input type="email" placeholder="Enter Your Email" />
-                            <button type="submit">Subscribe Now</button>
+                            <button type="submit" style={{backgroundColor:'#911439', cursor: 'pointer'}}>Subscribe Now</button>
                         </form>
                     </div>
                 </section>
