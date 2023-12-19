@@ -34,7 +34,7 @@ const Geometric = () => {
                 </Link>
               </div>
             </div>
-            <div style={{ padding: '30px' }}><img src="../images/staff-2.png" alt="img" /></div>
+            <div style={{ padding: '30px' }}><img src="images/nail_art/about_us/about-us-side-pic.jpg" alt="img" /></div>
           </div>
         </section>
         {/* Geometric nailart showcase */}
