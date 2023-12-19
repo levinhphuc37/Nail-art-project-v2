@@ -1,4 +1,4 @@
-import React,{ useState } from 'react';
+import React from 'react';
 import Header from '../header/Header';
 import Footer from '../footer/Footer';
 import './Home.css';
@@ -45,7 +45,6 @@ const Home = () => {
             <div className="service-content">
               <h2>Our Services</h2>
               <h3>What We Offer</h3>
-              <p>It is a long established fact that a reader will be distracted by the readable content of a page...</p>
             </div>
             <Link to="/aboutus" className="service-btn">Read More</Link>
           </div>
