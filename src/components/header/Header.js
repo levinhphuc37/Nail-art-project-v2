@@ -47,18 +47,18 @@ const Header = () => {
                 <input type="text" placeholder="Search.." name="search" />
                 <button type="submit">
                 <FontAwesomeIcon icon={faSearch} />
-                </button>
-              </form>
-              <div>
-                <Link to="/appointment" style={{ backgroundColor: '#911439', color: 'white' }}>
-                  Get an Appointment
-                </Link>
-              </div>
+              </button>
+            </form>
+            <div>
+              <Link to="/appointment" style={{ backgroundColor: '#911439', color: 'white' }}>
+                Get an Appointment
+              </Link>
             </div>
-            <Link to="/feedback">Feedback</Link>
           </div>
-        </section>
-      </header>
-    );
-    }
+          <Link to="/feedback">Feedback</Link>
+        </div>
+      </section>
+    </header>
+  );
+}
 export default Header;
