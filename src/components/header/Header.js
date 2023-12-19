@@ -11,8 +11,9 @@ const Header = () => {
       <header>
         <section>
           <div className="my-flex-container">
-            <div>Add: 8 Ton That Thuyet, Hanoi, Vietnam</div>
-            <span>Mon-Sat: 9am to 6pm</span>
+            <Link to="/home">
+              <img src='/images/logo.png' style={{height:"53px"}}></img>
+            </Link>
           </div>
           <div className="my-topnav">
             <Link to="/home">Home</Link>
