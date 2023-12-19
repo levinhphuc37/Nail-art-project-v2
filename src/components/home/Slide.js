@@ -21,7 +21,7 @@ const TextSlider = () => {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentSlide((prevSlide) => (prevSlide === slides.length - 1 ? 0 : prevSlide + 1));
-    }, 3000); 
+    }, 5000); 
 
     return () => clearInterval(intervalId);
   }, [currentSlide, slides.length]);
