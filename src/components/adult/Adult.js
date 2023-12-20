@@ -77,28 +77,28 @@ const Adult = () => {
             <div className="container">
                 <div className="row">
                 <div className="column">
-                    <Link to="images/service/gellary-11.jpg" title="image" className="img-link">
+                    <a href="images/service/gellary-11.jpg" title="image" className="img-link">
                     <img src="images/service/gellary-11.jpg" alt="img" />
-                    </Link>
-                    <Link to="images/service/gellary-44.jpg" title="image-4" className="img-link">
+                    </a>
+                    <a href="images/service/gellary-44.jpg" title="image-4" className="img-link">
                     <img src="images/service/gellary-44.jpg" alt="img" />
-                    </Link>
+                    </a>
                 </div>
                 <div className="column">
-                    <Link to="images/service/gellary-22.jpg" title="image-2" className="img-link">
+                    <a href="images/service/gellary-22.jpg" title="image-2" className="img-link">
                     <img src="images/service/gellary-22.jpg" alt="img" />
-                    </Link>
-                    <Link to="images/service/gellary-55.jpg" title="image-5" className="img-link">
+                    </a>
+                    <a href="images/service/gellary-55.jpg" title="image-5" className="img-link">
                     <img src="images/service/gellary-55.jpg" alt="img" className="last-img" />
-                    </Link>
+                    </a>
                 </div>
                 <div className="column">
-                    <Link to="images/service/gellary-33.jpg" title="image-3" className="img-link">
+                    <a href="images/service/gellary-33.jpg" title="image-3" className="img-link">
                     <img src="images/service/gellary-33.jpg" alt="img" />
-                    </Link>
-                    <Link to="images/service/gellary-66.jpg" title="image-6" className="img-link">
+                    </a>
+                    <a href="images/service/gellary-66.jpg" title="image-6" className="img-link">
                     <img src="images/service/gellary-66.jpg" alt="img" />
-                    </Link>
+                    </a>
                 </div>
                 </div>
             </div>
@@ -166,7 +166,7 @@ const Adult = () => {
             <h3>LATEST NAIL TRENDS AND DESIGNS FOR YOU</h3>
             <form className="subscribe-form">
                 <input type="email" placeholder="Enter Your Email" />
-                <button type="submit">Subscribe Now</button>
+                <button type="submit" style={{backgroundColor:'#911439', cursor: 'pointer'}}>Subscribe Now</button>
             </form>
             </div>
         </section>
